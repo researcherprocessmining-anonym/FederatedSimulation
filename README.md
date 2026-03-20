@@ -8,7 +8,7 @@ Multiple organizations each build a local SFD from their slice of an OCEL 2.0 ev
 
 ## Dataset
 
-OCEL 2.0 Logistics event log — 13 event types, 7 object types, spanning ~60 days of a logistics process.
+OCEL 2.0 Logistics event log.
 
 **To use the logistics dataset:**
 ```bash

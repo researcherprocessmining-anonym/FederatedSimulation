@@ -1,0 +1,53 @@
+"""
+fedsfd_boundary_flow_persist.mpc — Boundary flow from persisted parameters
+===========================================================================
+
+Protocol: semi2k (semi-honest, arithmetic mod 2^k)
+
+Reads boundary equation parameters (alpha, beta) from MP-SPDZ persistence
+files (written by fedsfd_regression_persist.mpc) and computes:
+    flow = max(alpha + beta * stock_value, 0)
+
+The parameters never leave the secret-shared domain: they are read as
+secret shares from persistence, combined with the secret stock value in
+MPC, and only the resulting flow rate is revealed.
+
+Persistence channel scheme:
+  Channel <eq_id>: [alpha, beta]  (read sequentially, matching write order)
+
+Compile with:  ./compile.py fedsfd_boundary_flow_persist <source_party> <eq_id>
+
+Input format (whitespace-separated in Player-Data/Input-P{i}-0):
+  Source party: stock_value
+  Other parties: 0.0  (dummy)
+
+Output (parsed by Python wrapper from stdout):
+  RESULT FLOW <flow_rate>
+
+Reference: Pourbafrani & van der Aalst (2022), federated simulation loop.
+"""
+
+sfix.set_precision(16, 31)
+print_float_precision(8)
+
+source_party = int(program.args[1])
+eq_id = int(program.args[2])
+
+# Read persisted equation parameters (secret shares)
+# These were written by fedsfd_regression_persist.mpc to channel eq_id
+alpha = sfix.read_from_file(eq_id)
+beta = sfix.read_from_file(eq_id)
+
+# Read stock value from source party (secret input)
+stock_val = sfix.get_input_from(source_party)
+
+# Compute boundary flow rate in the secret domain
+flow_rate = alpha + beta * stock_val
+
+# Clamp to non-negative
+is_positive = flow_rate > sfix(0)
+flow_rate = is_positive.if_else(flow_rate, sfix(0))
+
+# Only the flow rate is revealed — alpha, beta remain secret
+print_ln('RESULT FLOW %s', flow_rate.reveal())
+print_ln('DONE')

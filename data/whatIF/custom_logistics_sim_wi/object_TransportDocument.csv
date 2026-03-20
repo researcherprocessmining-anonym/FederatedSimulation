@@ -1,0 +1,1801 @@
+ocel_id;ocel_time;ocel_changed_field;Amount of Containers;Status
+td1;2023-05-23 09:21:17;;5
+td2;2023-05-23 10:54:33;;3
+td3;2023-05-26 11:26:46;;2
+td4;2023-05-26 15:27:47;;4
+td5;2023-05-29 10:24:01;;2
+td6;2023-05-29 14:29:22;;2
+td2;2023-05-29 15:45:38;Status;;in transit
+td7;2023-05-30 08:40:05;;2
+td4;2023-05-30 09:17:34;Status;;in transit
+td8;2023-05-30 14:41:36;;3
+td1;2023-05-30 14:45:04;Status;;in transit
+td9;2023-05-30 14:49:12;;2
+td10;2023-05-30 15:42:18;;4
+td11;2023-05-31 08:48:02;;2
+td12;2023-05-31 11:56:38;;3
+td13;2023-05-31 13:33:33;;2
+td14;2023-06-01 09:30:42;;4
+td15;2023-06-01 15:38:39;;4
+td16;2023-06-01 16:56:35;;3
+td4;2023-06-02 11:00:00;Status;;shipped
+td17;2023-06-02 11:13:07;;3
+td18;2023-06-02 16:39:21;;5
+td19;2023-06-05 08:08:29;;5
+td20;2023-06-05 12:17:49;;5
+td7;2023-06-05 13:43:04;Status;;in transit
+td21;2023-06-05 14:07:49;;5
+td17;2023-06-05 14:25:21;Status;;in transit
+td22;2023-06-05 15:04:55;;5
+td23;2023-06-06 08:32:29;;3
+td12;2023-06-06 10:32:22;Status;;in transit
+td2;2023-06-06 11:00:00;Status;;shipped
+td24;2023-06-06 13:20:49;;3
+td25;2023-06-06 16:00:03;;4
+td26;2023-06-06 16:27:24;;5
+td3;2023-06-06 16:31:30;Status;;in transit
+td10;2023-06-06 16:36:26;Status;;in transit
+td27;2023-06-06 16:49:34;;5
+td5;2023-06-07 08:25:12;Status;;in transit
+td15;2023-06-07 09:11:16;Status;;in transit
+td28;2023-06-07 12:18:41;;3
+td29;2023-06-07 12:44:23;;3
+td30;2023-06-07 15:02:46;;3
+td6;2023-06-08 07:57:20;Status;;in transit
+td31;2023-06-08 14:43:11;;5
+td1;2023-06-09 11:00:00;Status;;shipped
+td32;2023-06-09 11:46:54;;3
+td22;2023-06-09 13:58:58;Status;;in transit
+td29;2023-06-09 14:08:57;Status;;in transit
+td33;2023-06-09 18:10:09;;5
+td34;2023-06-12 11:40:07;;2
+td14;2023-06-12 13:53:13;Status;;in transit
+td23;2023-06-12 14:12:22;Status;;in transit
+td19;2023-06-12 14:26:25;Status;;in transit
+td15;2023-06-13 11:00:00;Status;;shipped
+td7;2023-06-13 11:00:00;Status;;shipped
+td10;2023-06-13 11:00:00;Status;;shipped
+td35;2023-06-13 12:28:09;;2
+td36;2023-06-13 15:40:34;;5
+td32;2023-06-13 16:41:42;Status;;in transit
+td16;2023-06-13 16:50:07;Status;;in transit
+td11;2023-06-14 10:23:22;Status;;in transit
+td37;2023-06-14 11:06:32;;5
+td24;2023-06-14 14:12:36;Status;;in transit
+td38;2023-06-14 14:27:45;;4
+td39;2023-06-14 15:03:30;;5
+td40;2023-06-14 17:22:18;;2
+td41;2023-06-15 07:26:19;;3
+td30;2023-06-15 09:56:11;Status;;in transit
+td42;2023-06-15 11:25:25;;3
+td13;2023-06-15 15:11:04;Status;;in transit
+td43;2023-06-15 16:40:36;;4
+td19;2023-06-16 11:00:00;Status;;shipped
+td23;2023-06-16 11:00:00;Status;;shipped
+td32;2023-06-16 11:00:00;Status;;shipped
+td29;2023-06-16 11:00:00;Status;;shipped
+td22;2023-06-16 11:00:00;Status;;shipped
+td40;2023-06-16 11:55:47;Status;;in transit
+td20;2023-06-16 14:59:47;Status;;in transit
+td44;2023-06-16 18:13:26;;5
+td9;2023-06-16 18:35:05;Status;;in transit
+td18;2023-06-19 14:46:52;Status;;in transit
+td45;2023-06-19 17:00:39;;2
+td6;2023-06-20 11:00:00;Status;;shipped
+td11;2023-06-20 11:00:00;Status;;shipped
+td12;2023-06-20 11:00:00;Status;;shipped
+td17;2023-06-20 11:00:00;Status;;shipped
+td5;2023-06-20 11:00:00;Status;;shipped
+td9;2023-06-20 11:00:00;Status;;shipped
+td40;2023-06-20 11:00:00;Status;;shipped
+td3;2023-06-20 11:00:00;Status;;shipped
+td46;2023-06-20 11:24:00;;4
+td25;2023-06-20 11:30:32;Status;;in transit
+td47;2023-06-20 12:02:17;;3
+td37;2023-06-20 12:34:50;Status;;in transit
+td48;2023-06-21 10:01:43;;5
+td41;2023-06-21 10:05:38;Status;;in transit
+td36;2023-06-21 10:28:55;Status;;in transit
+td49;2023-06-21 10:44:11;;4
+td8;2023-06-21 11:18:07;Status;;in transit
+td50;2023-06-21 15:41:38;;5
+td51;2023-06-21 15:47:29;;2
+td21;2023-06-21 15:51:20;Status;;in transit
+td44;2023-06-21 17:18:13;Status;;in transit
+td43;2023-06-21 17:36:22;Status;;in transit
+td52;2023-06-22 08:22:45;;4
+td42;2023-06-22 09:59:58;Status;;in transit
+td28;2023-06-22 11:00:16;Status;;in transit
+td38;2023-06-22 11:15:42;Status;;in transit
+td53;2023-06-22 15:47:51;;3
+td54;2023-06-22 16:20:17;;2
+td55;2023-06-22 17:33:59;;5
+td50;2023-06-23 08:36:46;Status;;in transit
+td34;2023-06-23 09:48:44;Status;;in transit
+td20;2023-06-23 11:00:00;Status;;shipped
+td18;2023-06-23 11:00:00;Status;;shipped
+td30;2023-06-23 11:00:00;Status;;shipped
+td37;2023-06-23 11:00:00;Status;;shipped
+td16;2023-06-23 11:00:00;Status;;shipped
+td41;2023-06-23 11:00:00;Status;;shipped
+td56;2023-06-23 11:18:07;;5
+td26;2023-06-23 11:37:19;Status;;in transit
+td57;2023-06-23 14:30:19;;5
+td46;2023-06-26 08:55:09;Status;;in transit
+td58;2023-06-26 12:09:02;;5
+td39;2023-06-26 13:50:07;Status;;in transit
+td59;2023-06-26 17:11:36;;4
+td60;2023-06-27 09:36:31;;4
+td61;2023-06-27 09:42:34;;4
+td62;2023-06-27 09:53:03;;2
+td25;2023-06-27 11:00:00;Status;;shipped
+td13;2023-06-27 11:00:00;Status;;shipped
+td38;2023-06-27 11:00:00;Status;;shipped
+td28;2023-06-27 11:00:00;Status;;shipped
+td34;2023-06-27 11:00:00;Status;;shipped
+td21;2023-06-27 11:00:00;Status;;shipped
+td39;2023-06-27 11:00:00;Status;;shipped
+td8;2023-06-27 11:00:00;Status;;shipped
+td14;2023-06-27 11:00:00;Status;;shipped
+td46;2023-06-27 11:00:00;Status;;shipped
+td24;2023-06-27 11:00:00;Status;;shipped
+td50;2023-06-27 11:00:00;Status;;shipped
+td44;2023-06-27 11:00:00;Status;;shipped
+td35;2023-06-27 14:48:57;Status;;in transit
+td63;2023-06-27 17:29:29;;5
+td64;2023-06-28 11:47:08;;3
+td47;2023-06-28 12:05:28;Status;;in transit
+td65;2023-06-28 12:17:04;;2
+td33;2023-06-28 12:23:09;Status;;in transit
+td54;2023-06-28 13:58:52;Status;;in transit
+td66;2023-06-28 14:47:00;;4
+td48;2023-06-28 16:39:56;Status;;in transit
+td56;2023-06-28 17:34:04;Status;;in transit
+td31;2023-06-28 17:41:19;Status;;in transit
+td49;2023-06-29 11:42:38;Status;;in transit
+td51;2023-06-29 14:04:33;Status;;in transit
+td45;2023-06-29 14:50:05;Status;;in transit
+td27;2023-06-30 08:40:02;Status;;in transit
+td67;2023-06-30 09:32:33;;3
+td68;2023-06-30 10:46:36;;5
+td36;2023-06-30 11:00:00;Status;;shipped
+td33;2023-06-30 11:00:00;Status;;shipped
+td43;2023-06-30 11:00:00;Status;;shipped
+td47;2023-06-30 11:00:00;Status;;shipped
+td56;2023-06-30 11:00:00;Status;;shipped
+td69;2023-06-30 12:05:55;;5
+td62;2023-06-30 13:19:36;Status;;in transit
+td59;2023-06-30 13:44:54;Status;;in transit
+td61;2023-06-30 14:05:14;Status;;in transit
+td70;2023-06-30 17:10:40;;5
+td71;2023-07-03 09:48:11;;5
+td72;2023-07-03 11:44:11;;4
+td73;2023-07-04 10:59:14;;4
+td62;2023-07-04 11:00:00;Status;;shipped
+td48;2023-07-04 11:00:00;Status;;shipped
+td35;2023-07-04 11:00:00;Status;;shipped
+td42;2023-07-04 11:00:00;Status;;shipped
+td54;2023-07-04 11:00:00;Status;;shipped
+td49;2023-07-04 11:00:00;Status;;shipped
+td27;2023-07-04 11:00:00;Status;;shipped
+td26;2023-07-04 11:00:00;Status;;shipped
+td31;2023-07-04 11:00:00;Status;;shipped
+td74;2023-07-04 11:47:03;;4
+td55;2023-07-04 13:05:30;Status;;in transit
+td52;2023-07-04 16:29:29;Status;;in transit
+td75;2023-07-04 16:32:46;;3
+td68;2023-07-05 10:50:26;Status;;in transit
+td76;2023-07-05 11:09:12;;5
+td58;2023-07-05 13:21:30;Status;;in transit
+td77;2023-07-05 16:59:53;;5
+td78;2023-07-06 09:07:09;;3
+td66;2023-07-06 10:14:59;Status;;in transit
+td79;2023-07-06 14:58:12;;2
+td80;2023-07-06 16:53:50;;5
+td81;2023-07-07 10:23:36;;2
+td71;2023-07-07 10:41:26;Status;;in transit
+td52;2023-07-07 11:00:00;Status;;shipped
+td45;2023-07-07 11:00:00;Status;;shipped
+td59;2023-07-07 11:00:00;Status;;shipped
+td61;2023-07-07 11:00:00;Status;;shipped
+td68;2023-07-07 11:00:00;Status;;shipped
+td55;2023-07-07 11:00:00;Status;;shipped
+td63;2023-07-07 13:24:46;Status;;in transit
+td82;2023-07-07 14:21:06;;2
+td83;2023-07-07 15:42:30;;3
+td60;2023-07-10 15:34:30;Status;;in transit
+td57;2023-07-10 17:00:08;Status;;in transit
+td63;2023-07-11 11:00:00;Status;;shipped
+td66;2023-07-11 11:00:00;Status;;shipped
+td58;2023-07-11 11:00:00;Status;;shipped
+td84;2023-07-11 11:02:24;;5
+td85;2023-07-11 14:08:26;;4
+td72;2023-07-11 16:26:33;Status;;in transit
+td82;2023-07-12 09:29:45;Status;;in transit
+td70;2023-07-12 09:33:52;Status;;in transit
+td86;2023-07-12 11:26:18;;4
+td78;2023-07-12 14:35:37;Status;;in transit
+td87;2023-07-13 07:40:41;;5
+td88;2023-07-13 08:07:44;;3
+td67;2023-07-13 08:19:16;Status;;in transit
+td69;2023-07-13 09:33:49;Status;;in transit
+td89;2023-07-13 11:10:41;;2
+td79;2023-07-13 11:48:26;Status;;in transit
+td90;2023-07-13 12:08:51;;4
+td91;2023-07-13 14:14:09;;4
+td64;2023-07-13 16:24:02;Status;;in transit
+td92;2023-07-13 16:38:54;;4
+td75;2023-07-14 09:21:16;Status;;in transit
+td53;2023-07-14 09:43:48;Status;;in transit
+td51;2023-07-14 11:00:00;Status;;shipped
+td57;2023-07-14 11:00:00;Status;;shipped
+td71;2023-07-14 11:00:00;Status;;shipped
+td69;2023-07-14 11:00:00;Status;;shipped
+td78;2023-07-14 11:00:00;Status;;shipped
+td60;2023-07-14 11:00:00;Status;;shipped
+td93;2023-07-14 11:46:44;;2
+td80;2023-07-17 15:20:03;Status;;in transit
+td86;2023-07-17 15:52:00;Status;;in transit
+td80;2023-07-18 11:00:00;Status;;shipped
+td53;2023-07-18 11:00:00;Status;;shipped
+td81;2023-07-18 11:03:12;Status;;in transit
+td94;2023-07-18 12:06:18;;4
+td90;2023-07-18 13:20:42;Status;;in transit
+td76;2023-07-18 13:59:00;Status;;in transit
+td65;2023-07-18 14:22:15;Status;;in transit
+td84;2023-07-18 14:47:16;Status;;in transit
+td85;2023-07-18 17:47:29;Status;;in transit
+td95;2023-07-18 18:03:48;;4
+td96;2023-07-18 18:12:19;;4
+td97;2023-07-19 15:33:25;;3
+td92;2023-07-19 15:38:59;Status;;in transit
+td98;2023-07-19 15:50:31;;2
+td99;2023-07-19 16:46:48;;3
+td100;2023-07-19 17:03:26;;5
+td101;2023-07-19 18:03:43;;3
+td102;2023-07-20 09:27:17;;2
+td103;2023-07-20 09:44:08;;2
+td104;2023-07-20 11:19:17;;2
+td105;2023-07-20 13:29:38;;4
+td70;2023-07-21 11:00:00;Status;;shipped
+td72;2023-07-21 11:00:00;Status;;shipped
+td76;2023-07-21 11:00:00;Status;;shipped
+td65;2023-07-21 11:00:00;Status;;shipped
+td98;2023-07-21 15:08:30;Status;;in transit
+td106;2023-07-21 15:21:33;;2
+td83;2023-07-21 16:10:51;Status;;in transit
+td73;2023-07-21 16:22:31;Status;;in transit
+td107;2023-07-24 08:28:09;;5
+td108;2023-07-24 08:31:13;;2
+td93;2023-07-24 11:28:35;Status;;in transit
+td74;2023-07-24 15:21:47;Status;;in transit
+td109;2023-07-25 09:58:21;;2
+td95;2023-07-25 10:04:57;Status;;in transit
+td98;2023-07-25 11:00:00;Status;;shipped
+td82;2023-07-25 11:00:00;Status;;shipped
+td64;2023-07-25 11:00:00;Status;;shipped
+td90;2023-07-25 11:00:00;Status;;shipped
+td79;2023-07-25 11:00:00;Status;;shipped
+td92;2023-07-25 11:00:00;Status;;shipped
+td95;2023-07-25 11:00:00;Status;;shipped
+td86;2023-07-25 11:00:00;Status;;shipped
+td84;2023-07-25 11:00:00;Status;;shipped
+td93;2023-07-25 11:00:00;Status;;shipped
+td73;2023-07-25 11:00:00;Status;;shipped
+td110;2023-07-25 13:42:26;;5
+td111;2023-07-25 13:47:10;;3
+td77;2023-07-25 13:49:01;Status;;in transit
+td88;2023-07-25 14:51:14;Status;;in transit
+td104;2023-07-25 15:42:01;Status;;in transit
+td112;2023-07-25 17:02:45;;3
+td106;2023-07-25 17:14:20;Status;;in transit
+td103;2023-07-25 17:45:18;Status;;in transit
+td89;2023-07-25 18:23:45;Status;;in transit
+td113;2023-07-26 10:25:32;;3
+td114;2023-07-26 14:53:33;;5
+td96;2023-07-26 15:38:53;Status;;in transit
+td115;2023-07-27 11:07:59;;5
+td116;2023-07-27 11:18:19;;5
+td117;2023-07-27 16:29:37;;5
+td67;2023-07-28 11:00:00;Status;;shipped
+td83;2023-07-28 11:00:00;Status;;shipped
+td74;2023-07-28 11:00:00;Status;;shipped
+td104;2023-07-28 11:00:00;Status;;shipped
+td75;2023-07-28 11:00:00;Status;;shipped
+td118;2023-07-28 17:18:13;;4
+td105;2023-07-31 07:36:18;Status;;in transit
+td119;2023-07-31 09:24:06;;1
+td112;2023-07-31 13:55:30;Status;;in transit
+td120;2023-07-31 14:10:03;;2
+td101;2023-07-31 16:28:17;Status;;in transit
+td87;2023-08-01 09:31:54;Status;;in transit
+td89;2023-08-01 11:00:00;Status;;shipped
+td101;2023-08-01 11:00:00;Status;;shipped
+td88;2023-08-01 11:00:00;Status;;shipped
+td77;2023-08-01 11:00:00;Status;;shipped
+td96;2023-08-01 11:00:00;Status;;shipped
+td105;2023-08-01 11:00:00;Status;;shipped
+td121;2023-08-01 15:40:24;;4
+td116;2023-08-01 16:32:45;Status;;in transit
+td122;2023-08-01 16:51:13;;2
+td100;2023-08-02 11:35:25;Status;;in transit
+td123;2023-08-02 14:06:29;;5
+td114;2023-08-02 14:22:30;Status;;in transit
+td99;2023-08-02 16:04:51;Status;;in transit
+td124;2023-08-03 09:30:02;;2
+td125;2023-08-03 11:46:01;;4
+td97;2023-08-03 14:26:04;Status;;in transit
+td126;2023-08-03 14:30:16;;5
+td127;2023-08-03 15:15:30;;4
+td128;2023-08-03 17:18:25;;3
+td106;2023-08-04 11:00:00;Status;;shipped
+td87;2023-08-04 11:00:00;Status;;shipped
+td81;2023-08-04 11:00:00;Status;;shipped
+td85;2023-08-04 11:00:00;Status;;shipped
+td116;2023-08-04 11:00:00;Status;;shipped
+td112;2023-08-04 11:00:00;Status;;shipped
+td103;2023-08-04 11:00:00;Status;;shipped
+td100;2023-08-04 11:00:00;Status;;shipped
+td94;2023-08-04 14:26:35;Status;;in transit
+td129;2023-08-04 15:32:09;;5
+td130;2023-08-04 16:38:34;;5
+td119;2023-08-07 11:21:13;Status;;in transit
+td110;2023-08-07 13:49:45;Status;;in transit
+td131;2023-08-07 16:24:21;;3
+td132;2023-08-08 10:54:38;;2
+td97;2023-08-08 11:00:00;Status;;shipped
+td114;2023-08-08 11:00:00;Status;;shipped
+td122;2023-08-08 12:00:10;Status;;in transit
+td133;2023-08-08 12:35:16;;2
+td91;2023-08-09 09:39:45;Status;;in transit
+td134;2023-08-09 11:37:33;;3
+td111;2023-08-09 13:56:29;Status;;in transit
+td102;2023-08-09 14:55:20;Status;;in transit
+td124;2023-08-09 15:17:40;Status;;in transit
+td135;2023-08-09 15:35:24;;4
+td136;2023-08-09 16:55:36;;5
+td137;2023-08-10 08:42:56;;4
+td138;2023-08-10 10:11:58;;5
+td108;2023-08-10 10:58:09;Status;;in transit
+td139;2023-08-10 13:15:41;;1
+td99;2023-08-11 11:00:00;Status;;shipped
+td124;2023-08-11 11:00:00;Status;;shipped
+td94;2023-08-11 11:00:00;Status;;shipped
+td91;2023-08-11 11:00:00;Status;;shipped
+td140;2023-08-11 11:02:24;;4
+td141;2023-08-11 15:04:44;;5
+td133;2023-08-11 17:27:49;Status;;in transit
+td142;2023-08-14 08:29:34;;5
+td143;2023-08-14 09:50:27;;4
+td144;2023-08-14 09:58:23;;3
+td121;2023-08-14 10:08:40;Status;;in transit
+td145;2023-08-14 11:49:06;;3
+td120;2023-08-14 12:17:11;Status;;in transit
+td146;2023-08-14 12:23:59;;2
+td113;2023-08-15 10:05:18;Status;;in transit
+td119;2023-08-15 11:00:00;Status;;shipped
+td113;2023-08-15 11:00:00;Status;;shipped
+td102;2023-08-15 11:00:00;Status;;shipped
+td110;2023-08-15 11:00:00;Status;;shipped
+td147;2023-08-15 12:07:53;;5
+td148;2023-08-15 12:33:10;;5
+td149;2023-08-15 13:38:42;;4
+td125;2023-08-16 07:12:01;Status;;in transit
+td127;2023-08-16 09:49:23;Status;;in transit
+td129;2023-08-16 09:56:48;Status;;in transit
+td150;2023-08-16 11:51:23;;2
+td151;2023-08-16 12:14:29;;4
+td152;2023-08-16 14:36:18;;3
+td123;2023-08-16 15:56:59;Status;;in transit
+td153;2023-08-16 17:49:12;;3
+td154;2023-08-17 12:20:10;;3
+td155;2023-08-17 15:59:25;;5
+td107;2023-08-17 16:23:51;Status;;in transit
+td127;2023-08-18 11:00:00;Status;;shipped
+td108;2023-08-18 11:00:00;Status;;shipped
+td120;2023-08-18 11:00:00;Status;;shipped
+td121;2023-08-18 11:00:00;Status;;shipped
+td122;2023-08-18 11:00:00;Status;;shipped
+td133;2023-08-18 11:00:00;Status;;shipped
+td129;2023-08-18 11:00:00;Status;;shipped
+td156;2023-08-18 15:33:07;;5
+td157;2023-08-18 15:46:04;;2
+td109;2023-08-18 17:17:09;Status;;in transit
+td158;2023-08-21 11:08:52;;5
+td126;2023-08-21 11:44:07;Status;;in transit
+td159;2023-08-21 16:00:01;;3
+td128;2023-08-21 16:32:23;Status;;in transit
+td160;2023-08-21 16:36:40;;4
+td161;2023-08-21 17:12:48;;5
+td162;2023-08-22 10:32:20;;1
+td125;2023-08-22 11:00:00;Status;;shipped
+td123;2023-08-22 11:00:00;Status;;shipped
+td109;2023-08-22 11:00:00;Status;;shipped
+td111;2023-08-22 11:00:00;Status;;shipped
+td163;2023-08-22 16:48:06;;4
+td137;2023-08-22 17:23:10;Status;;in transit
+td164;2023-08-23 14:54:27;;5
+td165;2023-08-23 17:28:17;;4
+td166;2023-08-24 09:40:12;;4
+td167;2023-08-24 14:19:23;;5
+td168;2023-08-24 17:16:28;;5
+td137;2023-08-25 11:00:00;Status;;shipped
+td128;2023-08-25 11:00:00;Status;;shipped
+td107;2023-08-25 11:00:00;Status;;shipped
+td126;2023-08-25 11:00:00;Status;;shipped
+td169;2023-08-25 11:38:30;;3
+td170;2023-08-25 16:40:03;;5
+td145;2023-08-25 19:48:33;Status;;in transit
+td171;2023-08-28 15:33:03;;2
+td172;2023-08-28 17:03:29;;5
+td173;2023-08-28 17:42:55;;3
+td174;2023-08-29 10:58:58;;4
+td131;2023-08-29 14:51:26;Status;;in transit
+td175;2023-08-29 15:01:14;;4
+td176;2023-08-31 12:18:23;;1
+td139;2023-08-31 14:38:36;Status;;in transit
+td177;2023-08-31 15:21:54;;4
+td143;2023-09-01 09:51:27;Status;;in transit
+td139;2023-09-01 11:00:00;Status;;shipped
+td153;2023-09-01 11:19:37;Status;;in transit
+td178;2023-09-01 11:30:46;;3
+td144;2023-09-01 11:35:23;Status;;in transit
+td179;2023-09-01 11:43:22;;5
+td132;2023-09-01 14:36:13;Status;;in transit
+td180;2023-09-01 14:54:08;;5
+td181;2023-09-01 15:39:12;;4
+td182;2023-09-04 09:08:47;;4
+td183;2023-09-04 11:57:29;;3
+td184;2023-09-04 14:00:33;;3
+td185;2023-09-04 16:35:37;;3
+td186;2023-09-04 16:51:18;;5
+td176;2023-09-04 17:48:45;Status;;in transit
+td187;2023-09-05 07:49:17;;4
+td188;2023-09-05 09:36:15;;5
+td153;2023-09-05 11:00:00;Status;;shipped
+td131;2023-09-05 11:00:00;Status;;shipped
+td145;2023-09-05 11:00:00;Status;;shipped
+td143;2023-09-05 11:00:00;Status;;shipped
+td144;2023-09-05 11:00:00;Status;;shipped
+td132;2023-09-05 11:00:00;Status;;shipped
+td189;2023-09-05 12:30:08;;2
+td118;2023-09-05 15:09:06;Status;;in transit
+td151;2023-09-05 15:37:55;Status;;in transit
+td190;2023-09-05 15:43:32;;4
+td130;2023-09-05 18:11:50;Status;;in transit
+td191;2023-09-06 08:10:50;;4
+td192;2023-09-06 09:50:51;;2
+td193;2023-09-06 10:24:17;;2
+td163;2023-09-06 13:40:39;Status;;in transit
+td194;2023-09-06 15:33:35;;4
+td195;2023-09-06 16:57:22;;3
+td196;2023-09-07 10:01:17;;4
+td141;2023-09-07 10:44:15;Status;;in transit
+td197;2023-09-07 16:49:28;;2
+td154;2023-09-08 10:06:02;Status;;in transit
+td198;2023-09-08 10:34:58;;2
+td176;2023-09-08 11:00:00;Status;;shipped
+td118;2023-09-08 11:00:00;Status;;shipped
+td163;2023-09-08 11:00:00;Status;;shipped
+td130;2023-09-08 11:00:00;Status;;shipped
+td168;2023-09-08 14:31:19;Status;;in transit
+td115;2023-09-08 16:43:05;Status;;in transit
+td171;2023-09-11 09:55:10;Status;;in transit
+td199;2023-09-11 10:01:32;;3
+td146;2023-09-11 10:35:30;Status;;in transit
+td200;2023-09-11 11:06:51;;2
+td142;2023-09-11 13:42:53;Status;;in transit
+td201;2023-09-11 15:07:07;;3
+td202;2023-09-11 17:39:55;;2
+td148;2023-09-12 09:16:49;Status;;in transit
+td140;2023-09-12 09:17:24;Status;;in transit
+td172;2023-09-12 09:23:32;Status;;in transit
+td141;2023-09-12 11:00:00;Status;;shipped
+td154;2023-09-12 11:00:00;Status;;shipped
+td168;2023-09-12 11:00:00;Status;;shipped
+td115;2023-09-12 11:00:00;Status;;shipped
+td148;2023-09-12 11:00:00;Status;;shipped
+td151;2023-09-12 11:00:00;Status;;shipped
+td203;2023-09-12 11:08:04;;2
+td147;2023-09-12 15:48:29;Status;;in transit
+td204;2023-09-13 08:26:17;;4
+td160;2023-09-13 09:28:42;Status;;in transit
+td205;2023-09-13 10:44:59;;4
+td136;2023-09-13 11:10:52;Status;;in transit
+td149;2023-09-13 14:47:46;Status;;in transit
+td155;2023-09-13 15:52:49;Status;;in transit
+td206;2023-09-13 16:13:26;;3
+td207;2023-09-13 17:22:18;;2
+td152;2023-09-14 08:31:32;Status;;in transit
+td208;2023-09-14 10:07:36;;4
+td209;2023-09-14 13:30:09;;2
+td210;2023-09-14 14:30:38;;1
+td156;2023-09-14 16:38:23;Status;;in transit
+td211;2023-09-15 09:23:07;;5
+td171;2023-09-15 11:00:00;Status;;shipped
+td174;2023-09-15 11:38:43;Status;;in transit
+td192;2023-09-15 13:39:53;Status;;in transit
+td178;2023-09-15 17:43:40;Status;;in transit
+td175;2023-09-18 09:01:05;Status;;in transit
+td183;2023-09-18 09:04:39;Status;;in transit
+td212;2023-09-18 10:11:40;;3
+td213;2023-09-18 11:05:25;;3
+td157;2023-09-18 11:53:11;Status;;in transit
+td214;2023-09-18 12:35:51;;5
+td169;2023-09-18 13:57:44;Status;;in transit
+td135;2023-09-18 14:16:03;Status;;in transit
+td161;2023-09-18 17:54:12;Status;;in transit
+td138;2023-09-18 18:33:06;Status;;in transit
+td193;2023-09-18 19:09:58;Status;;in transit
+td215;2023-09-19 08:32:58;;5
+td172;2023-09-19 11:00:00;Status;;shipped
+td146;2023-09-19 11:00:00;Status;;shipped
+td142;2023-09-19 11:00:00;Status;;shipped
+td140;2023-09-19 11:00:00;Status;;shipped
+td216;2023-09-19 11:28:16;;5
+td217;2023-09-19 12:07:12;;3
+td164;2023-09-19 13:59:55;Status;;in transit
+td190;2023-09-19 14:34:36;Status;;in transit
+td218;2023-09-19 16:24:25;;5
+td219;2023-09-20 09:50:03;;2
+td188;2023-09-20 10:19:44;Status;;in transit
+td134;2023-09-20 10:25:33;Status;;in transit
+td165;2023-09-20 12:09:47;Status;;in transit
+td117;2023-09-20 13:28:23;Status;;in transit
+td166;2023-09-20 17:36:31;Status;;in transit
+td185;2023-09-21 10:05:48;Status;;in transit
+td181;2023-09-21 11:36:36;Status;;in transit
+td201;2023-09-21 14:08:34;Status;;in transit
+td210;2023-09-21 14:37:42;Status;;in transit
+td179;2023-09-21 14:54:55;Status;;in transit
+td186;2023-09-22 07:47:01;Status;;in transit
+td206;2023-09-22 08:19:51;Status;;in transit
+td173;2023-09-22 08:55:38;Status;;in transit
+td167;2023-09-22 09:13:39;Status;;in transit
+td220;2023-09-22 09:42:37;;5
+td156;2023-09-22 11:00:00;Status;;shipped
+td152;2023-09-22 11:00:00;Status;;shipped
+td147;2023-09-22 11:00:00;Status;;shipped
+td138;2023-09-22 11:00:00;Status;;shipped
+td155;2023-09-22 11:00:00;Status;;shipped
+td161;2023-09-22 11:00:00;Status;;shipped
+td149;2023-09-22 11:00:00;Status;;shipped
+td136;2023-09-22 11:00:00;Status;;shipped
+td169;2023-09-22 11:00:00;Status;;shipped
+td160;2023-09-22 11:00:00;Status;;shipped
+td157;2023-09-22 11:00:00;Status;;shipped
+td193;2023-09-22 11:00:00;Status;;shipped
+td175;2023-09-22 11:00:00;Status;;shipped
+td135;2023-09-22 11:00:00;Status;;shipped
+td192;2023-09-22 11:00:00;Status;;shipped
+td158;2023-09-22 14:59:51;Status;;in transit
+td180;2023-09-22 15:17:19;Status;;in transit
+td221;2023-09-22 16:43:43;;3
+td189;2023-09-25 07:59:28;Status;;in transit
+td191;2023-09-25 09:39:13;Status;;in transit
+td222;2023-09-25 11:42:42;;2
+td208;2023-09-25 13:53:48;Status;;in transit
+td223;2023-09-25 15:10:55;;1
+td184;2023-09-25 16:32:49;Status;;in transit
+td224;2023-09-25 18:26:18;;3
+td225;2023-09-25 18:42:50;;3
+td207;2023-09-26 07:53:35;Status;;in transit
+td199;2023-09-26 09:44:16;Status;;in transit
+td177;2023-09-26 09:54:03;Status;;in transit
+td226;2023-09-26 10:31:26;;4
+td227;2023-09-26 10:53:26;;2
+td134;2023-09-26 11:00:00;Status;;shipped
+td164;2023-09-26 11:00:00;Status;;shipped
+td181;2023-09-26 11:00:00;Status;;shipped
+td167;2023-09-26 11:00:00;Status;;shipped
+td165;2023-09-26 11:00:00;Status;;shipped
+td180;2023-09-26 11:00:00;Status;;shipped
+td166;2023-09-26 11:00:00;Status;;shipped
+td117;2023-09-26 11:00:00;Status;;shipped
+td185;2023-09-26 11:00:00;Status;;shipped
+td186;2023-09-26 11:00:00;Status;;shipped
+td201;2023-09-26 11:00:00;Status;;shipped
+td191;2023-09-26 11:00:00;Status;;shipped
+td158;2023-09-26 11:00:00;Status;;shipped
+td190;2023-09-26 11:00:00;Status;;shipped
+td173;2023-09-26 11:00:00;Status;;shipped
+td188;2023-09-26 11:00:00;Status;;shipped
+td174;2023-09-26 11:00:00;Status;;shipped
+td199;2023-09-26 11:00:00;Status;;shipped
+td150;2023-09-26 11:10:21;Status;;in transit
+td228;2023-09-26 11:20:12;;2
+td229;2023-09-26 12:51:37;;4
+td195;2023-09-26 16:04:25;Status;;in transit
+td230;2023-09-27 10:06:57;;2
+td196;2023-09-27 11:14:19;Status;;in transit
+td209;2023-09-27 11:26:33;Status;;in transit
+td214;2023-09-27 11:46:16;Status;;in transit
+td187;2023-09-27 16:00:03;Status;;in transit
+td159;2023-09-27 16:53:56;Status;;in transit
+td227;2023-09-28 09:11:28;Status;;in transit
+td231;2023-09-28 09:49:43;;4
+td232;2023-09-28 11:34:12;;2
+td233;2023-09-28 13:31:04;;4
+td170;2023-09-28 15:07:03;Status;;in transit
+td234;2023-09-28 15:16:54;;2
+td200;2023-09-28 15:37:47;Status;;in transit
+td205;2023-09-28 17:04:29;Status;;in transit
+td194;2023-09-29 08:08:09;Status;;in transit
+td203;2023-09-29 10:07:42;Status;;in transit
+td197;2023-09-29 10:32:36;Status;;in transit
+td235;2023-09-29 10:47:07;;1
+td187;2023-09-29 11:00:00;Status;;shipped
+td209;2023-09-29 11:00:00;Status;;shipped
+td207;2023-09-29 11:00:00;Status;;shipped
+td178;2023-09-29 11:00:00;Status;;shipped
+td184;2023-09-29 11:00:00;Status;;shipped
+td189;2023-09-29 11:00:00;Status;;shipped
+td203;2023-09-29 11:00:00;Status;;shipped
+td183;2023-09-29 11:00:00;Status;;shipped
+td208;2023-09-29 11:00:00;Status;;shipped
+td179;2023-09-29 11:00:00;Status;;shipped
+td236;2023-09-29 15:03:30;;3
+td237;2023-09-29 16:58:06;;1
+td238;2023-09-29 17:17:34;;5
+td215;2023-09-29 18:44:46;Status;;in transit
+td239;2023-10-02 07:37:59;;4
+td240;2023-10-02 08:48:56;;2
+td224;2023-10-02 11:42:19;Status;;in transit
+td241;2023-10-02 17:08:09;;4
+td162;2023-10-03 07:37:45;Status;;in transit
+td242;2023-10-03 07:41:19;;3
+td182;2023-10-03 10:31:58;Status;;in transit
+td219;2023-10-03 10:48:07;Status;;in transit
+td170;2023-10-03 11:00:00;Status;;shipped
+td150;2023-10-03 11:00:00;Status;;shipped
+td200;2023-10-03 11:00:00;Status;;shipped
+td197;2023-10-03 11:00:00;Status;;shipped
+td206;2023-10-03 11:00:00;Status;;shipped
+td177;2023-10-03 11:00:00;Status;;shipped
+td214;2023-10-03 11:00:00;Status;;shipped
+td194;2023-10-03 11:00:00;Status;;shipped
+td196;2023-10-03 11:00:00;Status;;shipped
+td195;2023-10-03 11:00:00;Status;;shipped
+td205;2023-10-03 11:00:00;Status;;shipped
+td159;2023-10-03 11:00:00;Status;;shipped
+td228;2023-10-03 12:06:58;Status;;in transit
+td213;2023-10-03 14:55:20;Status;;in transit
+td225;2023-10-03 15:06:01;Status;;in transit
+td243;2023-10-03 15:08:51;;1
+td230;2023-10-03 15:25:45;Status;;in transit
+td226;2023-10-03 16:34:24;Status;;in transit
+td244;2023-10-04 09:24:49;;2
+td223;2023-10-04 10:05:12;Status;;in transit
+td202;2023-10-04 12:38:31;Status;;in transit
+td221;2023-10-04 13:28:17;Status;;in transit
+td245;2023-10-04 16:45:36;;3
+td218;2023-10-05 09:08:53;Status;;in transit
+td217;2023-10-05 09:17:30;Status;;in transit
+td198;2023-10-05 11:20:40;Status;;in transit
+td237;2023-10-05 11:38:38;Status;;in transit
+td204;2023-10-05 11:45:37;Status;;in transit
+td246;2023-10-05 11:51:49;;1
+td222;2023-10-05 13:45:32;Status;;in transit
+td247;2023-10-05 15:23:50;;2
+td211;2023-10-05 15:48:47;Status;;in transit
+td243;2023-10-05 16:52:14;Status;;in transit
+td235;2023-10-05 17:06:50;Status;;in transit
+td232;2023-10-06 08:48:35;Status;;in transit
+td240;2023-10-06 10:25:26;Status;;in transit
+td229;2023-10-06 10:32:02;Status;;in transit
+td243;2023-10-06 11:00:00;Status;;shipped
+td228;2023-10-06 11:00:00;Status;;shipped
+td162;2023-10-06 11:00:00;Status;;shipped
+td182;2023-10-06 11:00:00;Status;;shipped
+td202;2023-10-06 11:00:00;Status;;shipped
+td213;2023-10-06 11:00:00;Status;;shipped
+td215;2023-10-06 11:00:00;Status;;shipped
+td223;2023-10-06 11:00:00;Status;;shipped
+td220;2023-10-06 14:17:37;Status;;in transit
+td233;2023-10-06 15:05:00;Status;;in transit
+td212;2023-10-06 15:19:08;Status;;in transit
+td234;2023-10-06 15:57:26;Status;;in transit
+td248;2023-10-06 16:14:43;;3
+td249;2023-10-09 08:45:18;;3
+td239;2023-10-09 09:25:31;Status;;in transit
+td238;2023-10-09 09:31:50;Status;;in transit
+td244;2023-10-09 09:33:02;Status;;in transit
+td231;2023-10-09 09:42:06;Status;;in transit
+td242;2023-10-09 10:39:07;Status;;in transit
+td250;2023-10-09 10:47:40;;4
+td251;2023-10-10 10:54:41;;4
+td236;2023-10-10 10:55:42;Status;;in transit
+td235;2023-10-10 11:00:00;Status;;shipped
+td210;2023-10-10 11:00:00;Status;;shipped
+td239;2023-10-10 11:00:00;Status;;shipped
+td204;2023-10-10 11:00:00;Status;;shipped
+td212;2023-10-10 11:00:00;Status;;shipped
+td233;2023-10-10 11:00:00;Status;;shipped
+td219;2023-10-10 11:00:00;Status;;shipped
+td198;2023-10-10 11:00:00;Status;;shipped
+td217;2023-10-10 11:00:00;Status;;shipped
+td222;2023-10-10 11:00:00;Status;;shipped
+td221;2023-10-10 11:00:00;Status;;shipped
+td227;2023-10-10 11:00:00;Status;;shipped
+td218;2023-10-10 11:00:00;Status;;shipped
+td226;2023-10-10 11:00:00;Status;;shipped
+td211;2023-10-10 11:00:00;Status;;shipped
+td252;2023-10-10 11:18:30;;1
+td253;2023-10-10 13:40:03;;2
+td254;2023-10-10 14:28:01;;4
+td255;2023-10-10 16:22:07;;3
+td252;2023-10-11 10:55:06;Status;;in transit
+td256;2023-10-11 16:22:05;;3
+td216;2023-10-12 15:29:32;Status;;in transit
+td240;2023-10-13 11:00:00;Status;;shipped
+td224;2023-10-13 11:00:00;Status;;shipped
+td229;2023-10-13 11:00:00;Status;;shipped
+td231;2023-10-13 11:00:00;Status;;shipped
+td234;2023-10-13 11:00:00;Status;;shipped
+td244;2023-10-13 11:00:00;Status;;shipped
+td245;2023-10-13 11:48:07;Status;;in transit
+td257;2023-10-13 14:56:42;;5
+td258;2023-10-13 15:45:02;;2
+td259;2023-10-16 08:21:03;;3
+td260;2023-10-16 08:46:38;;2
+td261;2023-10-16 09:11:41;;5
+td262;2023-10-16 10:00:17;;2
+td247;2023-10-16 11:42:38;Status;;in transit
+td248;2023-10-16 13:15:13;Status;;in transit
+td246;2023-10-16 13:23:13;Status;;in transit
+td251;2023-10-16 13:43:52;Status;;in transit
+td250;2023-10-16 13:44:37;Status;;in transit
+td263;2023-10-16 13:54:35;;4
+td253;2023-10-16 17:42:38;Status;;in transit
+td264;2023-10-16 18:10:13;;5
+td255;2023-10-17 08:40:20;Status;;in transit
+td230;2023-10-17 11:00:00;Status;;shipped
+td220;2023-10-17 11:00:00;Status;;shipped
+td250;2023-10-17 11:00:00;Status;;shipped
+td216;2023-10-17 11:00:00;Status;;shipped
+td232;2023-10-17 11:00:00;Status;;shipped
+td238;2023-10-17 11:00:00;Status;;shipped
+td225;2023-10-17 11:00:00;Status;;shipped
+td241;2023-10-17 16:22:18;Status;;in transit
+td265;2023-10-17 18:03:06;;1
+td266;2023-10-18 12:38:31;;5
+td262;2023-10-18 15:57:53;Status;;in transit
+td267;2023-10-18 16:48:38;;5
+td268;2023-10-18 17:55:07;;2
+td269;2023-10-19 08:22:59;;3
+td270;2023-10-19 10:03:47;;5
+td271;2023-10-19 11:58:01;;5
+td258;2023-10-19 14:20:47;Status;;in transit
+td272;2023-10-19 15:05:42;;2
+td255;2023-10-20 11:00:00;Status;;shipped
+td252;2023-10-20 11:00:00;Status;;shipped
+td242;2023-10-20 11:00:00;Status;;shipped
+td249;2023-10-20 14:56:19;Status;;in transit
+td273;2023-10-23 07:38:39;;3
+td270;2023-10-23 09:32:24;Status;;in transit
+td272;2023-10-23 09:43:34;Status;;in transit
+td274;2023-10-23 10:04:33;;2
+td265;2023-10-23 11:18:06;Status;;in transit
+td275;2023-10-23 11:33:09;;4
+td256;2023-10-23 14:12:12;Status;;in transit
+td276;2023-10-23 15:15:54;;3
+td268;2023-10-23 16:36:59;Status;;in transit
+td277;2023-10-23 17:05:27;;2
+td248;2023-10-24 11:00:00;Status;;shipped
+td236;2023-10-24 11:00:00;Status;;shipped
+td246;2023-10-24 11:00:00;Status;;shipped
+td249;2023-10-24 11:00:00;Status;;shipped
+td237;2023-10-24 11:00:00;Status;;shipped
+td245;2023-10-24 11:00:00;Status;;shipped
+td251;2023-10-24 11:00:00;Status;;shipped
+td259;2023-10-24 14:59:06;Status;;in transit
+td278;2023-10-24 16:18:47;;3
+td279;2023-10-24 16:30:31;;4
+td266;2023-10-24 18:30:40;Status;;in transit
+td280;2023-10-25 10:06:53;;4
+td261;2023-10-25 10:27:07;Status;;in transit
+td276;2023-10-25 11:29:01;Status;;in transit
+td271;2023-10-25 16:20:51;Status;;in transit
+td281;2023-10-26 09:45:47;;3
+td282;2023-10-26 10:18:43;;5
+td257;2023-10-26 11:21:21;Status;;in transit
+td269;2023-10-26 13:50:22;Status;;in transit
+td283;2023-10-26 15:45:59;;3
+td284;2023-10-26 17:41:27;;2
+td263;2023-10-27 08:14:02;Status;;in transit
+td285;2023-10-27 09:47:23;;1
+td286;2023-10-27 10:47:56;;5
+td274;2023-10-27 10:54:47;Status;;in transit
+td272;2023-10-27 11:00:00;Status;;shipped
+td270;2023-10-27 11:00:00;Status;;shipped
+td253;2023-10-27 11:00:00;Status;;shipped
+td276;2023-10-27 11:00:00;Status;;shipped
+td256;2023-10-27 11:00:00;Status;;shipped
+td262;2023-10-27 11:00:00;Status;;shipped
+td241;2023-10-27 11:00:00;Status;;shipped
+td254;2023-10-27 11:38:30;Status;;in transit
+td287;2023-10-27 12:04:00;;5
+td288;2023-10-27 15:56:52;;5
+td289;2023-10-30 09:04:04;;2
+td267;2023-10-30 10:21:38;Status;;in transit
+td290;2023-10-30 14:42:56;;2
+td291;2023-10-30 14:53:24;;2
+td292;2023-10-30 15:45:11;;4
+td285;2023-10-30 16:38:23;Status;;in transit
+td293;2023-10-31 10:14:20;;4
+td294;2023-10-31 10:23:22;;3
+td247;2023-10-31 11:00:00;Status;;shipped
+td254;2023-10-31 11:00:00;Status;;shipped
+td258;2023-10-31 11:00:00;Status;;shipped
+td267;2023-10-31 11:00:00;Status;;shipped
+td269;2023-10-31 11:00:00;Status;;shipped
+td266;2023-10-31 11:00:00;Status;;shipped
+td257;2023-10-31 11:00:00;Status;;shipped
+td263;2023-10-31 11:00:00;Status;;shipped
+td281;2023-10-31 11:28:31;Status;;in transit
+td264;2023-10-31 15:48:15;Status;;in transit
+td273;2023-11-01 07:25:52;Status;;in transit
+td295;2023-11-01 10:30:04;;4
+td296;2023-11-01 10:31:25;;4
+td297;2023-11-01 11:23:18;;3
+td260;2023-11-01 13:23:07;Status;;in transit
+td298;2023-11-01 15:17:08;;2
+td289;2023-11-02 07:41:22;Status;;in transit
+td277;2023-11-02 09:27:43;Status;;in transit
+td299;2023-11-02 09:44:09;;3
+td282;2023-11-02 14:59:23;Status;;in transit
+td279;2023-11-02 17:12:20;Status;;in transit
+td300;2023-11-02 18:38:29;;2
+td291;2023-11-03 09:21:05;Status;;in transit
+td280;2023-11-03 10:59:06;Status;;in transit
+td260;2023-11-03 11:00:00;Status;;shipped
+td282;2023-11-03 11:00:00;Status;;shipped
+td271;2023-11-03 11:00:00;Status;;shipped
+td259;2023-11-03 11:00:00;Status;;shipped
+td274;2023-11-03 11:00:00;Status;;shipped
+td264;2023-11-03 11:00:00;Status;;shipped
+td289;2023-11-03 11:00:00;Status;;shipped
+td268;2023-11-03 11:00:00;Status;;shipped
+td281;2023-11-03 11:00:00;Status;;shipped
+td261;2023-11-03 11:00:00;Status;;shipped
+td291;2023-11-03 11:00:00;Status;;shipped
+td301;2023-11-03 14:16:00;;5
+td283;2023-11-06 08:34:40;Status;;in transit
+td292;2023-11-06 11:50:08;Status;;in transit
+td286;2023-11-06 13:47:05;Status;;in transit
+td288;2023-11-06 14:16:12;Status;;in transit
+td284;2023-11-06 14:33:43;Status;;in transit
+td302;2023-11-06 15:21:49;;2
+td303;2023-11-06 16:58:35;;2
+td304;2023-11-07 07:55:11;;4
+td300;2023-11-07 10:46:36;Status;;in transit
+td294;2023-11-07 10:52:50;Status;;in transit
+td295;2023-11-07 10:56:26;Status;;in transit
+td290;2023-11-07 13:44:07;Status;;in transit
+td287;2023-11-07 13:47:31;Status;;in transit
+td305;2023-11-07 16:30:53;;2
+td275;2023-11-08 07:51:16;Status;;in transit
+td306;2023-11-08 10:03:55;;2
+td307;2023-11-08 15:52:23;;2
+td308;2023-11-09 08:48:57;;4
+td309;2023-11-09 09:53:15;;5
+td297;2023-11-09 15:26:46;Status;;in transit
+td296;2023-11-09 15:46:57;Status;;in transit
+td310;2023-11-09 19:06:24;;4
+td311;2023-11-10 10:36:53;;2
+td312;2023-11-10 10:49:47;;3
+td280;2023-11-10 11:00:00;Status;;shipped
+td292;2023-11-10 11:00:00;Status;;shipped
+td286;2023-11-10 11:00:00;Status;;shipped
+td285;2023-11-10 11:00:00;Status;;shipped
+td295;2023-11-10 11:00:00;Status;;shipped
+td279;2023-11-10 11:00:00;Status;;shipped
+td288;2023-11-10 11:00:00;Status;;shipped
+td287;2023-11-10 11:00:00;Status;;shipped
+td313;2023-11-10 11:38:19;;5
+td314;2023-11-10 18:49:40;;3
+td303;2023-11-13 07:43:33;Status;;in transit
+td305;2023-11-13 14:09:40;Status;;in transit
+td315;2023-11-13 15:37:10;;2
+td302;2023-11-13 15:41:12;Status;;in transit
+td306;2023-11-13 16:03:35;Status;;in transit
+td316;2023-11-14 09:50:18;;3
+td317;2023-11-14 10:32:03;;3
+td277;2023-11-14 11:00:00;Status;;shipped
+td273;2023-11-14 11:00:00;Status;;shipped
+td265;2023-11-14 11:00:00;Status;;shipped
+td318;2023-11-14 11:21:52;;1
+td310;2023-11-14 11:24:29;Status;;in transit
+td319;2023-11-14 11:32:51;;2
+td320;2023-11-14 14:29:20;;2
+td307;2023-11-14 14:47:57;Status;;in transit
+td309;2023-11-15 11:29:59;Status;;in transit
+td321;2023-11-15 14:59:25;;2
+td315;2023-11-16 11:34:05;Status;;in transit
+td278;2023-11-16 14:00:44;Status;;in transit
+td322;2023-11-16 14:14:56;;2
+td321;2023-11-16 14:33:24;Status;;in transit
+td323;2023-11-16 15:18:48;;4
+td293;2023-11-16 15:20:57;Status;;in transit
+td308;2023-11-16 16:46:30;Status;;in transit
+td311;2023-11-17 10:56:32;Status;;in transit
+td284;2023-11-17 11:00:00;Status;;shipped
+td307;2023-11-17 11:00:00;Status;;shipped
+td300;2023-11-17 11:00:00;Status;;shipped
+td283;2023-11-17 11:00:00;Status;;shipped
+td275;2023-11-17 11:00:00;Status;;shipped
+td306;2023-11-17 11:00:00;Status;;shipped
+td310;2023-11-17 11:00:00;Status;;shipped
+td324;2023-11-17 15:35:44;;4
+td325;2023-11-17 16:24:46;;5
+td326;2023-11-17 16:38:15;;5
+td298;2023-11-20 10:17:42;Status;;in transit
+td327;2023-11-20 12:07:59;;3
+td322;2023-11-20 15:56:36;Status;;in transit
+td328;2023-11-21 09:13:33;;5
+td301;2023-11-21 10:48:51;Status;;in transit
+td312;2023-11-21 10:48:58;Status;;in transit
+td294;2023-11-21 11:00:00;Status;;shipped
+td278;2023-11-21 11:00:00;Status;;shipped
+td321;2023-11-21 11:00:00;Status;;shipped
+td323;2023-11-21 11:55:01;Status;;in transit
+td329;2023-11-21 14:17:01;;3
+td324;2023-11-21 16:08:39;Status;;in transit
+td330;2023-11-21 16:38:54;;3
+td314;2023-11-21 17:35:30;Status;;in transit
+td331;2023-11-22 07:17:47;;5
+td332;2023-11-22 08:03:42;;3
+td304;2023-11-22 09:43:21;Status;;in transit
+td299;2023-11-22 09:49:51;Status;;in transit
+td333;2023-11-22 09:58:29;;3
+td318;2023-11-22 13:26:48;Status;;in transit
+td328;2023-11-22 14:35:26;Status;;in transit
+td334;2023-11-22 16:26:05;;2
+td335;2023-11-23 07:46:25;;4
+td336;2023-11-23 09:57:13;;3
+td320;2023-11-23 10:22:33;Status;;in transit
+td337;2023-11-23 13:19:35;;2
+td338;2023-11-23 17:53:25;;4
+td339;2023-11-24 09:25:05;;1
+td302;2023-11-24 11:00:00;Status;;shipped
+td290;2023-11-24 11:00:00;Status;;shipped
+td297;2023-11-24 11:00:00;Status;;shipped
+td328;2023-11-24 11:00:00;Status;;shipped
+td293;2023-11-24 11:00:00;Status;;shipped
+td298;2023-11-24 11:00:00;Status;;shipped
+td315;2023-11-24 11:00:00;Status;;shipped
+td309;2023-11-24 11:00:00;Status;;shipped
+td323;2023-11-24 11:00:00;Status;;shipped
+td301;2023-11-24 11:00:00;Status;;shipped
+td334;2023-11-24 14:21:25;Status;;in transit
+td340;2023-11-24 17:12:43;;3
+td341;2023-11-24 17:23:43;;4
+td342;2023-11-27 11:44:44;;3
+td325;2023-11-27 12:09:35;Status;;in transit
+td327;2023-11-27 17:46:31;Status;;in transit
+td343;2023-11-28 10:40:44;;4
+td305;2023-11-28 11:00:00;Status;;shipped
+td324;2023-11-28 11:00:00;Status;;shipped
+td320;2023-11-28 11:00:00;Status;;shipped
+td296;2023-11-28 11:00:00;Status;;shipped
+td303;2023-11-28 11:00:00;Status;;shipped
+td308;2023-11-28 11:00:00;Status;;shipped
+td311;2023-11-28 11:00:00;Status;;shipped
+td299;2023-11-28 11:00:00;Status;;shipped
+td339;2023-11-28 11:08:53;Status;;in transit
+td336;2023-11-28 11:12:43;Status;;in transit
+td330;2023-11-28 11:27:22;Status;;in transit
+td344;2023-11-28 11:44:23;;2
+td338;2023-11-28 13:43:37;Status;;in transit
+td345;2023-11-28 16:24:49;;3
+td346;2023-11-28 17:23:36;;5
+td337;2023-11-29 10:32:32;Status;;in transit
+td347;2023-11-29 12:05:00;;2
+td317;2023-11-29 14:05:40;Status;;in transit
+td340;2023-11-29 16:23:02;Status;;in transit
+td348;2023-11-30 08:15:54;;5
+td335;2023-11-30 10:27:37;Status;;in transit
+td349;2023-11-30 10:48:57;;2
+td350;2023-11-30 17:03:21;;5
+td351;2023-12-01 08:21:35;;5
+td330;2023-12-01 11:00:00;Status;;shipped
+td304;2023-12-01 11:00:00;Status;;shipped
+td325;2023-12-01 11:00:00;Status;;shipped
+td352;2023-12-01 12:10:32;;5
+td319;2023-12-01 14:42:55;Status;;in transit
+td344;2023-12-01 15:03:51;Status;;in transit
+td331;2023-12-01 16:54:44;Status;;in transit
+td353;2023-12-01 17:16:19;;2
+td349;2023-12-04 09:41:11;Status;;in transit
+td313;2023-12-04 11:50:58;Status;;in transit
+td326;2023-12-04 11:58:30;Status;;in transit
+td354;2023-12-04 12:46:32;;2
+td333;2023-12-04 13:52:48;Status;;in transit
+td347;2023-12-04 14:52:56;Status;;in transit
+td322;2023-12-05 11:00:00;Status;;shipped
+td338;2023-12-05 11:00:00;Status;;shipped
+td312;2023-12-05 11:00:00;Status;;shipped
+td319;2023-12-05 11:00:00;Status;;shipped
+td326;2023-12-05 11:00:00;Status;;shipped
+td314;2023-12-05 11:00:00;Status;;shipped
+td336;2023-12-05 11:00:00;Status;;shipped
+td329;2023-12-05 16:48:28;Status;;in transit
+td316;2023-12-06 09:04:08;Status;;in transit
+td332;2023-12-06 10:17:03;Status;;in transit
+td351;2023-12-06 14:03:56;Status;;in transit
+td355;2023-12-06 14:37:36;;4
+td356;2023-12-06 16:06:02;;3
+td357;2023-12-06 16:08:09;;5
+td341;2023-12-06 16:35:48;Status;;in transit
+td343;2023-12-06 16:53:26;Status;;in transit
+td354;2023-12-07 08:43:02;Status;;in transit
+td352;2023-12-07 10:31:15;Status;;in transit
+td350;2023-12-07 14:17:56;Status;;in transit
+td358;2023-12-07 14:49:55;;5
+td359;2023-12-08 09:00:14;;5
+td360;2023-12-08 09:37:28;;5
+td342;2023-12-08 10:48:43;Status;;in transit
+td345;2023-12-08 10:54:17;Status;;in transit
+td337;2023-12-08 11:00:00;Status;;shipped
+td340;2023-12-08 11:00:00;Status;;shipped
+td316;2023-12-08 11:00:00;Status;;shipped
+td339;2023-12-08 11:00:00;Status;;shipped
+td333;2023-12-08 11:00:00;Status;;shipped
+td317;2023-12-08 11:00:00;Status;;shipped
+td343;2023-12-08 11:00:00;Status;;shipped
+td334;2023-12-08 11:00:00;Status;;shipped
+td331;2023-12-08 11:00:00;Status;;shipped
+td313;2023-12-08 11:00:00;Status;;shipped
+td361;2023-12-08 11:12:45;;2
+td362;2023-12-11 10:42:53;;2
+td363;2023-12-11 13:59:29;;3
+td364;2023-12-11 15:23:28;;1
+td365;2023-12-11 16:21:08;;2
+td353;2023-12-12 07:56:17;Status;;in transit
+td318;2023-12-12 11:00:00;Status;;shipped
+td349;2023-12-12 11:00:00;Status;;shipped
+td342;2023-12-12 11:00:00;Status;;shipped
+td354;2023-12-12 11:00:00;Status;;shipped
+td332;2023-12-12 11:00:00;Status;;shipped
+td345;2023-12-12 11:00:00;Status;;shipped
+td335;2023-12-12 11:00:00;Status;;shipped
+td352;2023-12-12 11:00:00;Status;;shipped
+td350;2023-12-12 11:00:00;Status;;shipped
+td329;2023-12-12 11:00:00;Status;;shipped
+td366;2023-12-12 11:37:53;;3
+td367;2023-12-12 16:15:35;;3
+td368;2023-12-12 17:18:26;;5
+td361;2023-12-13 07:40:44;Status;;in transit
+td369;2023-12-13 09:28:05;;3
+td348;2023-12-13 09:45:31;Status;;in transit
+td370;2023-12-13 10:18:13;;2
+td358;2023-12-13 14:18:53;Status;;in transit
+td356;2023-12-14 09:13:46;Status;;in transit
+td365;2023-12-14 11:12:35;Status;;in transit
+td371;2023-12-14 14:50:33;;3
+td372;2023-12-14 16:18:11;;4
+td361;2023-12-15 11:00:00;Status;;shipped
+td351;2023-12-15 11:00:00;Status;;shipped
+td327;2023-12-15 11:00:00;Status;;shipped
+td373;2023-12-15 11:24:09;;4
+td374;2023-12-15 11:40:46;;5
+td375;2023-12-15 17:04:30;;3
+td376;2023-12-15 17:04:37;;5
+td357;2023-12-18 10:29:13;Status;;in transit
+td360;2023-12-18 10:36:13;Status;;in transit
+td377;2023-12-18 11:03:49;;5
+td378;2023-12-18 11:59:12;;3
+td364;2023-12-18 15:01:48;Status;;in transit
+td363;2023-12-18 15:19:45;Status;;in transit
+td359;2023-12-18 17:03:53;Status;;in transit
+td344;2023-12-19 11:00:00;Status;;shipped
+td356;2023-12-19 11:00:00;Status;;shipped
+td341;2023-12-19 11:00:00;Status;;shipped
+td357;2023-12-19 11:00:00;Status;;shipped
+td363;2023-12-19 11:00:00;Status;;shipped
+td365;2023-12-19 11:00:00;Status;;shipped
+td353;2023-12-19 11:00:00;Status;;shipped
+td348;2023-12-19 11:00:00;Status;;shipped
+td346;2023-12-19 11:07:38;Status;;in transit
+td370;2023-12-19 11:17:10;Status;;in transit
+td379;2023-12-19 12:33:53;;5
+td380;2023-12-19 14:51:43;;4
+td355;2023-12-19 15:56:44;Status;;in transit
+td381;2023-12-19 16:18:12;;3
+td369;2023-12-19 16:50:41;Status;;in transit
+td366;2023-12-20 14:01:52;Status;;in transit
+td382;2023-12-20 15:38:18;;5
+td383;2023-12-20 16:30:18;;3
+td384;2023-12-21 10:15:52;;4
+td385;2023-12-21 14:42:24;;1
+td386;2023-12-21 14:49:37;;2
+td378;2023-12-21 17:08:09;Status;;in transit
+td368;2023-12-21 17:14:22;Status;;in transit
+td377;2023-12-21 17:23:47;Status;;in transit
+td387;2023-12-22 09:54:14;;2
+td362;2023-12-22 10:59:02;Status;;in transit
+td355;2023-12-22 11:00:00;Status;;shipped
+td359;2023-12-22 11:00:00;Status;;shipped
+td358;2023-12-22 11:00:00;Status;;shipped
+td388;2023-12-22 14:41:41;;4
+td372;2023-12-22 15:08:18;Status;;in transit
+td371;2023-12-22 15:21:02;Status;;in transit
+td389;2023-12-22 16:02:07;;4
+td376;2023-12-25 10:48:20;Status;;in transit
+td374;2023-12-26 07:57:31;Status;;in transit
+td367;2023-12-26 09:05:16;Status;;in transit
+td390;2023-12-26 10:22:37;;3
+td364;2023-12-26 11:00:00;Status;;shipped
+td346;2023-12-26 11:00:00;Status;;shipped
+td369;2023-12-26 11:00:00;Status;;shipped
+td374;2023-12-26 11:00:00;Status;;shipped
+td347;2023-12-26 11:00:00;Status;;shipped
+td368;2023-12-26 11:00:00;Status;;shipped
+td360;2023-12-26 11:00:00;Status;;shipped
+td376;2023-12-26 11:00:00;Status;;shipped
+td362;2023-12-26 11:00:00;Status;;shipped
+td378;2023-12-26 11:00:00;Status;;shipped
+td380;2023-12-26 14:25:00;Status;;in transit
+td391;2023-12-26 15:35:05;;2
+td379;2023-12-26 16:28:24;Status;;in transit
+td373;2023-12-27 08:29:50;Status;;in transit
+td392;2023-12-27 16:24:42;;4
+td393;2023-12-27 17:22:47;;2
+td394;2023-12-27 18:39:31;;2
+td381;2023-12-28 11:09:19;Status;;in transit
+td395;2023-12-28 11:25:34;;4
+td387;2023-12-28 11:57:47;Status;;in transit
+td396;2023-12-28 12:42:09;;3
+td397;2023-12-28 13:33:48;;3
+td398;2023-12-28 15:19:51;;4
+td399;2023-12-28 15:58:07;;3
+td400;2023-12-29 08:50:11;;4
+td373;2023-12-29 11:00:00;Status;;shipped
+td377;2023-12-29 11:00:00;Status;;shipped
+td380;2023-12-29 11:00:00;Status;;shipped
+td401;2023-12-29 15:00:12;;5
+td391;2023-12-29 16:00:17;Status;;in transit
+td402;2023-12-29 16:41:51;;4
+td393;2024-01-01 08:32:02;Status;;in transit
+td384;2024-01-01 08:43:58;Status;;in transit
+td403;2024-01-01 09:29:28;;4
+td399;2024-01-01 12:00:57;Status;;in transit
+td375;2024-01-01 15:25:04;Status;;in transit
+td397;2024-01-01 15:44:30;Status;;in transit
+td404;2024-01-01 18:34:53;;2
+td393;2024-01-02 11:00:00;Status;;shipped
+td384;2024-01-02 11:00:00;Status;;shipped
+td370;2024-01-02 11:00:00;Status;;shipped
+td366;2024-01-02 11:00:00;Status;;shipped
+td405;2024-01-02 11:10:58;;5
+td382;2024-01-02 11:23:53;Status;;in transit
+td406;2024-01-02 16:25:55;;2
+td407;2024-01-03 13:39:40;;5
+td401;2024-01-03 15:09:40;Status;;in transit
+td386;2024-01-03 15:22:18;Status;;in transit
+td402;2024-01-03 15:50:28;Status;;in transit
+td392;2024-01-03 17:33:14;Status;;in transit
+td408;2024-01-03 17:33:53;;3
+td385;2024-01-04 09:59:16;Status;;in transit
+td383;2024-01-04 13:39:10;Status;;in transit
+td409;2024-01-04 15:08:00;;3
+td410;2024-01-04 15:34:25;;3
+td411;2024-01-04 15:43:50;;4
+td412;2024-01-04 16:06:21;;3
+td413;2024-01-05 09:25:14;;4
+td397;2024-01-05 11:00:00;Status;;shipped
+td391;2024-01-05 11:00:00;Status;;shipped
+td371;2024-01-05 11:00:00;Status;;shipped
+td382;2024-01-05 11:00:00;Status;;shipped
+td379;2024-01-05 11:00:00;Status;;shipped
+td399;2024-01-05 11:00:00;Status;;shipped
+td408;2024-01-05 13:26:42;Status;;in transit
+td396;2024-01-05 14:37:47;Status;;in transit
+td414;2024-01-05 14:53:28;;5
+td415;2024-01-08 08:18:33;;2
+td395;2024-01-08 10:53:55;Status;;in transit
+td404;2024-01-08 14:20:32;Status;;in transit
+td389;2024-01-08 14:24:01;Status;;in transit
+td416;2024-01-08 17:15:08;;2
+td367;2024-01-09 11:00:00;Status;;shipped
+td372;2024-01-09 11:00:00;Status;;shipped
+td386;2024-01-09 11:00:00;Status;;shipped
+td381;2024-01-09 11:00:00;Status;;shipped
+td396;2024-01-09 11:00:00;Status;;shipped
+td392;2024-01-09 11:00:00;Status;;shipped
+td395;2024-01-09 11:00:00;Status;;shipped
+td402;2024-01-09 11:00:00;Status;;shipped
+td383;2024-01-09 11:00:00;Status;;shipped
+td408;2024-01-09 11:00:00;Status;;shipped
+td389;2024-01-09 11:00:00;Status;;shipped
+td410;2024-01-09 11:14:04;Status;;in transit
+td417;2024-01-09 11:36:31;;4
+td418;2024-01-09 15:12:27;;3
+td390;2024-01-09 15:25:03;Status;;in transit
+td411;2024-01-09 15:29:24;Status;;in transit
+td394;2024-01-09 17:48:43;Status;;in transit
+td419;2024-01-09 18:32:36;;4
+td409;2024-01-09 18:54:26;Status;;in transit
+td405;2024-01-10 11:42:39;Status;;in transit
+td420;2024-01-10 15:50:19;;2
+td421;2024-01-10 16:51:35;;4
+td422;2024-01-11 08:15:29;;2
+td423;2024-01-11 10:50:49;;3
+td406;2024-01-11 11:06:22;Status;;in transit
+td413;2024-01-11 13:27:40;Status;;in transit
+td424;2024-01-11 15:38:06;;2
+td425;2024-01-11 16:46:23;;2
+td416;2024-01-12 09:45:21;Status;;in transit
+td398;2024-01-12 10:30:40;Status;;in transit
+td387;2024-01-12 11:00:00;Status;;shipped
+td409;2024-01-12 11:00:00;Status;;shipped
+td375;2024-01-12 11:00:00;Status;;shipped
+td385;2024-01-12 11:00:00;Status;;shipped
+td401;2024-01-12 11:00:00;Status;;shipped
+td426;2024-01-12 12:19:09;;5
+td427;2024-01-12 15:26:47;;4
+td428;2024-01-12 17:14:18;;5
+td429;2024-01-12 17:15:44;;2
+td430;2024-01-15 08:01:19;;4
+td424;2024-01-15 10:51:12;Status;;in transit
+td421;2024-01-15 13:51:33;Status;;in transit
+td431;2024-01-15 15:21:25;;5
+td388;2024-01-15 16:45:58;Status;;in transit
+td432;2024-01-16 09:43:12;;2
+td421;2024-01-16 11:00:00;Status;;shipped
+td394;2024-01-16 11:00:00;Status;;shipped
+td411;2024-01-16 11:00:00;Status;;shipped
+td390;2024-01-16 11:00:00;Status;;shipped
+td405;2024-01-16 11:00:00;Status;;shipped
+td398;2024-01-16 11:00:00;Status;;shipped
+td418;2024-01-16 15:58:27;Status;;in transit
+td429;2024-01-17 11:38:34;Status;;in transit
+td433;2024-01-17 12:24:01;;2
+td419;2024-01-17 15:09:41;Status;;in transit
+td423;2024-01-17 15:47:45;Status;;in transit
+td407;2024-01-17 15:53:29;Status;;in transit
+td434;2024-01-17 16:22:05;;4
+td417;2024-01-17 16:37:00;Status;;in transit
+td428;2024-01-17 17:33:20;Status;;in transit
+td435;2024-01-18 09:22:43;;3
+td436;2024-01-18 17:37:51;;4
+td437;2024-01-18 18:12:09;;3
+td404;2024-01-19 11:00:00;Status;;shipped
+td410;2024-01-19 11:00:00;Status;;shipped
+td413;2024-01-19 11:00:00;Status;;shipped
+td424;2024-01-19 11:00:00;Status;;shipped
+td388;2024-01-19 11:00:00;Status;;shipped
+td438;2024-01-19 11:52:16;;2
+td426;2024-01-19 14:20:25;Status;;in transit
+td414;2024-01-19 17:50:25;Status;;in transit
+td439;2024-01-22 09:32:00;;5
+td400;2024-01-22 14:33:27;Status;;in transit
+td440;2024-01-22 15:42:01;;4
+td441;2024-01-22 16:57:08;;4
+td442;2024-01-22 18:14:19;;2
+td427;2024-01-23 09:22:15;Status;;in transit
+td425;2024-01-23 09:40:20;Status;;in transit
+td403;2024-01-23 09:59:26;Status;;in transit
+td416;2024-01-23 11:00:00;Status;;shipped
+td400;2024-01-23 11:00:00;Status;;shipped
+td407;2024-01-23 11:00:00;Status;;shipped
+td414;2024-01-23 11:00:00;Status;;shipped
+td423;2024-01-23 11:00:00;Status;;shipped
+td428;2024-01-23 11:00:00;Status;;shipped
+td422;2024-01-23 14:12:53;Status;;in transit
+td443;2024-01-23 15:53:42;;1
+td433;2024-01-23 16:37:38;Status;;in transit
+td444;2024-01-24 07:56:24;;2
+td437;2024-01-24 11:53:45;Status;;in transit
+td430;2024-01-24 14:04:05;Status;;in transit
+td431;2024-01-24 14:05:07;Status;;in transit
+td445;2024-01-24 16:26:04;;5
+td443;2024-01-24 17:04:36;Status;;in transit
+td420;2024-01-24 17:30:04;Status;;in transit
+td435;2024-01-24 17:32:59;Status;;in transit
+td434;2024-01-24 17:41:28;Status;;in transit
+td446;2024-01-25 07:23:17;;3
+td447;2024-01-25 08:48:26;;3
+td448;2024-01-25 08:59:15;;5
+td449;2024-01-25 10:26:27;;4
+td436;2024-01-25 10:29:40;Status;;in transit
+td432;2024-01-25 12:09:12;Status;;in transit
+td450;2024-01-25 15:11:27;;2
+td451;2024-01-26 09:33:52;;4
+td433;2024-01-26 11:00:00;Status;;shipped
+td417;2024-01-26 11:00:00;Status;;shipped
+td418;2024-01-26 11:00:00;Status;;shipped
+td429;2024-01-26 11:00:00;Status;;shipped
+td437;2024-01-26 11:00:00;Status;;shipped
+td406;2024-01-26 11:00:00;Status;;shipped
+td403;2024-01-26 11:00:00;Status;;shipped
+td419;2024-01-26 11:00:00;Status;;shipped
+td412;2024-01-26 14:48:56;Status;;in transit
+td452;2024-01-26 16:21:26;;3
+td444;2024-01-26 16:57:28;Status;;in transit
+td453;2024-01-29 09:55:44;;3
+td440;2024-01-29 13:28:55;Status;;in transit
+td439;2024-01-30 09:54:31;Status;;in transit
+td450;2024-01-30 10:50:21;Status;;in transit
+td435;2024-01-30 11:00:00;Status;;shipped
+td444;2024-01-30 11:00:00;Status;;shipped
+td412;2024-01-30 11:00:00;Status;;shipped
+td440;2024-01-30 11:00:00;Status;;shipped
+td436;2024-01-30 11:00:00;Status;;shipped
+td426;2024-01-30 11:00:00;Status;;shipped
+td431;2024-01-30 11:00:00;Status;;shipped
+td449;2024-01-30 11:45:45;Status;;in transit
+td454;2024-01-30 15:00:51;;2
+td455;2024-01-30 17:32:04;;5
+td456;2024-01-30 18:26:34;;3
+td457;2024-01-31 07:56:06;;5
+td448;2024-01-31 09:17:41;Status;;in transit
+td415;2024-01-31 09:36:44;Status;;in transit
+td452;2024-01-31 09:53:56;Status;;in transit
+td441;2024-01-31 10:14:46;Status;;in transit
+td458;2024-01-31 10:37:36;;3
+td446;2024-01-31 16:52:14;Status;;in transit
+td459;2024-01-31 18:14:30;;5
+td460;2024-01-31 18:47:23;;3
+td461;2024-02-01 08:07:52;;4
+td462;2024-02-01 08:36:26;;4
+td463;2024-02-01 09:22:57;;5
+td442;2024-02-01 10:30:57;Status;;in transit
+td464;2024-02-01 17:09:50;;2
+td465;2024-02-02 08:21:28;;4
+td466;2024-02-02 09:04:51;;1
+td467;2024-02-02 09:42:06;;5
+td446;2024-02-02 11:00:00;Status;;shipped
+td430;2024-02-02 11:00:00;Status;;shipped
+td422;2024-02-02 11:00:00;Status;;shipped
+td415;2024-02-02 11:00:00;Status;;shipped
+td456;2024-02-02 11:59:33;Status;;in transit
+td468;2024-02-02 12:54:06;;2
+td460;2024-02-02 13:44:11;Status;;in transit
+td445;2024-02-05 14:11:06;Status;;in transit
+td469;2024-02-05 15:37:05;;3
+td451;2024-02-05 18:19:53;Status;;in transit
+td447;2024-02-06 08:40:39;Status;;in transit
+td449;2024-02-06 11:00:00;Status;;shipped
+td432;2024-02-06 11:00:00;Status;;shipped
+td456;2024-02-06 11:00:00;Status;;shipped
+td420;2024-02-06 11:00:00;Status;;shipped
+td441;2024-02-06 11:00:00;Status;;shipped
+td460;2024-02-06 11:00:00;Status;;shipped
+td425;2024-02-06 11:00:00;Status;;shipped
+td445;2024-02-06 11:00:00;Status;;shipped
+td448;2024-02-06 11:00:00;Status;;shipped
+td452;2024-02-06 11:00:00;Status;;shipped
+td427;2024-02-06 11:00:00;Status;;shipped
+td462;2024-02-06 11:27:01;Status;;in transit
+td470;2024-02-06 14:00:44;;5
+td438;2024-02-06 14:23:31;Status;;in transit
+td453;2024-02-06 15:30:39;Status;;in transit
+td454;2024-02-06 16:17:32;Status;;in transit
+td471;2024-02-07 07:58:55;;4
+td466;2024-02-07 17:11:08;Status;;in transit
+td472;2024-02-08 07:53:54;;4
+td473;2024-02-08 09:09:33;;2
+td467;2024-02-08 14:23:24;Status;;in transit
+td465;2024-02-08 15:19:07;Status;;in transit
+td458;2024-02-08 16:08:03;Status;;in transit
+td455;2024-02-08 16:22:47;Status;;in transit
+td474;2024-02-08 16:49:02;;3
+td457;2024-02-08 17:35:36;Status;;in transit
+td475;2024-02-09 10:37:12;;4
+td442;2024-02-09 11:00:00;Status;;shipped
+td450;2024-02-09 11:00:00;Status;;shipped
+td447;2024-02-09 11:00:00;Status;;shipped
+td434;2024-02-09 11:00:00;Status;;shipped
+td439;2024-02-09 11:00:00;Status;;shipped
+td476;2024-02-09 12:10:01;;4
+td477;2024-02-09 14:44:28;;5
+td478;2024-02-09 15:06:22;;2
+td471;2024-02-09 15:25:54;Status;;in transit
+td479;2024-02-09 18:12:16;;5
+td463;2024-02-12 12:03:48;Status;;in transit
+td480;2024-02-12 13:54:16;;5
+td459;2024-02-13 07:08:47;Status;;in transit
+td474;2024-02-13 09:18:09;Status;;in transit
+td481;2024-02-13 09:25:45;;4
+td468;2024-02-13 09:50:50;Status;;in transit
+td466;2024-02-13 11:00:00;Status;;shipped
+td443;2024-02-13 11:00:00;Status;;shipped
+td465;2024-02-13 11:00:00;Status;;shipped
+td462;2024-02-13 11:00:00;Status;;shipped
+td451;2024-02-13 11:00:00;Status;;shipped
+td470;2024-02-13 11:13:35;Status;;in transit
+td482;2024-02-13 14:04:39;;5
+td483;2024-02-13 15:00:21;;3
+td475;2024-02-13 16:13:35;Status;;in transit
+td469;2024-02-14 07:51:57;Status;;in transit
+td461;2024-02-14 08:04:33;Status;;in transit
+td484;2024-02-14 10:10:13;;2
+td464;2024-02-14 10:25:00;Status;;in transit
+td485;2024-02-14 14:38:15;;5
+td486;2024-02-14 15:58:23;;5
+td487;2024-02-15 10:07:54;;2
+td488;2024-02-15 14:38:06;;4
+td489;2024-02-15 18:21:04;;4
+td468;2024-02-16 11:00:00;Status;;shipped
+td454;2024-02-16 11:00:00;Status;;shipped
+td453;2024-02-16 11:00:00;Status;;shipped
+td438;2024-02-16 11:00:00;Status;;shipped
+td470;2024-02-16 11:00:00;Status;;shipped
+td471;2024-02-16 11:00:00;Status;;shipped
+td467;2024-02-16 11:00:00;Status;;shipped
+td490;2024-02-16 11:02:15;;4
+td472;2024-02-16 13:56:36;Status;;in transit
+td491;2024-02-16 14:42:38;;4
+td478;2024-02-16 14:51:09;Status;;in transit
+td484;2024-02-19 11:56:57;Status;;in transit
+td492;2024-02-19 13:48:43;;3
+td477;2024-02-19 14:55:14;Status;;in transit
+td476;2024-02-19 15:28:15;Status;;in transit
+td481;2024-02-20 07:57:09;Status;;in transit
+td493;2024-02-20 09:11:26;;3
+td494;2024-02-20 09:43:35;;2
+td474;2024-02-20 11:00:00;Status;;shipped
+td464;2024-02-20 11:00:00;Status;;shipped
+td458;2024-02-20 11:00:00;Status;;shipped
+td475;2024-02-20 11:00:00;Status;;shipped
+td476;2024-02-20 11:00:00;Status;;shipped
+td477;2024-02-20 11:00:00;Status;;shipped
+td495;2024-02-20 11:10:24;;2
+td489;2024-02-20 11:35:26;Status;;in transit
+td492;2024-02-20 16:07:40;Status;;in transit
+td488;2024-02-20 16:14:05;Status;;in transit
+td496;2024-02-20 16:27:47;;4
+td491;2024-02-21 09:54:57;Status;;in transit
+td487;2024-02-21 10:40:29;Status;;in transit
+td497;2024-02-21 10:51:11;;5
+td498;2024-02-21 16:27:51;;2
+td499;2024-02-22 07:30:46;;3
+td495;2024-02-22 07:43:38;Status;;in transit
+td500;2024-02-22 10:49:33;;4
+td473;2024-02-22 16:56:04;Status;;in transit
+td501;2024-02-22 18:28:58;;5
+td502;2024-02-23 09:43:25;;5
+td484;2024-02-23 11:00:00;Status;;shipped
+td492;2024-02-23 11:00:00;Status;;shipped
+td459;2024-02-23 11:00:00;Status;;shipped
+td457;2024-02-23 11:00:00;Status;;shipped
+td489;2024-02-23 11:00:00;Status;;shipped
+td481;2024-02-23 11:00:00;Status;;shipped
+td463;2024-02-23 11:00:00;Status;;shipped
+td488;2024-02-23 11:00:00;Status;;shipped
+td499;2024-02-23 17:07:47;Status;;in transit
+td486;2024-02-26 09:30:21;Status;;in transit
+td503;2024-02-26 10:55:24;;4
+td494;2024-02-26 11:31:20;Status;;in transit
+td504;2024-02-26 14:11:05;;3
+td505;2024-02-26 15:42:12;;3
+td506;2024-02-26 16:24:27;;2
+td480;2024-02-26 16:27:16;Status;;in transit
+td479;2024-02-26 16:34:55;Status;;in transit
+td500;2024-02-26 16:52:06;Status;;in transit
+td507;2024-02-27 08:06:31;;4
+td498;2024-02-27 09:40:23;Status;;in transit
+td483;2024-02-27 09:59:08;Status;;in transit
+td479;2024-02-27 11:00:00;Status;;shipped
+td455;2024-02-27 11:00:00;Status;;shipped
+td491;2024-02-27 11:00:00;Status;;shipped
+td472;2024-02-27 11:00:00;Status;;shipped
+td473;2024-02-27 11:00:00;Status;;shipped
+td461;2024-02-27 11:00:00;Status;;shipped
+td482;2024-02-27 13:39:14;Status;;in transit
+td496;2024-02-27 16:13:42;Status;;in transit
+td508;2024-02-27 16:25:26;;5
+td509;2024-02-27 17:13:49;;5
+td490;2024-02-28 11:56:58;Status;;in transit
+td510;2024-02-28 16:14:52;;4
+td511;2024-02-29 12:16:42;;2
+td512;2024-02-29 16:27:33;;3
+td513;2024-02-29 16:46:40;;4
+td495;2024-03-01 11:00:00;Status;;shipped
+td469;2024-03-01 11:00:00;Status;;shipped
+td487;2024-03-01 11:00:00;Status;;shipped
+td496;2024-03-01 11:00:00;Status;;shipped
+td482;2024-03-01 11:00:00;Status;;shipped
+td480;2024-03-01 11:00:00;Status;;shipped
+td500;2024-03-01 11:00:00;Status;;shipped
+td498;2024-03-01 11:00:00;Status;;shipped
+td514;2024-03-01 14:18:42;;5
+td507;2024-03-01 14:22:30;Status;;in transit
+td497;2024-03-01 17:28:51;Status;;in transit
+td493;2024-03-01 17:57:01;Status;;in transit
+td501;2024-03-04 08:35:22;Status;;in transit
+td515;2024-03-04 09:21:54;;3
+td516;2024-03-04 14:01:03;;3
+td512;2024-03-05 08:24:01;Status;;in transit
+td509;2024-03-05 08:41:26;Status;;in transit
+td506;2024-03-05 08:54:13;Status;;in transit
+td511;2024-03-05 09:08:12;Status;;in transit
+td513;2024-03-05 09:56:01;Status;;in transit
+td517;2024-03-05 12:05:25;;2
+td502;2024-03-05 14:20:13;Status;;in transit
+td485;2024-03-05 14:22:15;Status;;in transit
+td508;2024-03-05 16:40:30;Status;;in transit
+td518;2024-03-06 09:01:02;;4
+td519;2024-03-06 09:11:40;;4
+td505;2024-03-06 09:13:47;Status;;in transit
+td520;2024-03-06 09:28:00;;3
+td521;2024-03-06 15:03:14;;3
+td522;2024-03-06 15:17:58;;3
+td523;2024-03-07 09:33:01;;3
+td524;2024-03-07 10:25:48;;4
+td525;2024-03-07 10:48:48;;2
+td526;2024-03-07 11:09:11;;2
+td504;2024-03-07 11:15:49;Status;;in transit
+td527;2024-03-07 11:39:47;;2
+td510;2024-03-07 11:40:58;Status;;in transit
+td503;2024-03-07 11:46:57;Status;;in transit
+td528;2024-03-07 13:56:45;;4
+td529;2024-03-07 15:11:33;;1
+td530;2024-03-08 10:45:39;;4
+td499;2024-03-08 11:00:00;Status;;shipped
+td509;2024-03-08 11:00:00;Status;;shipped
+td508;2024-03-08 11:00:00;Status;;shipped
+td507;2024-03-08 11:00:00;Status;;shipped
+td490;2024-03-08 11:00:00;Status;;shipped
+td478;2024-03-08 11:00:00;Status;;shipped
+td494;2024-03-08 11:00:00;Status;;shipped
+td511;2024-03-08 11:00:00;Status;;shipped
+td531;2024-03-08 13:42:40;;5
+td532;2024-03-11 09:05:00;;3
+td533;2024-03-11 11:54:14;;3
+td514;2024-03-11 13:40:53;Status;;in transit
+td518;2024-03-11 16:58:31;Status;;in transit
+td529;2024-03-12 09:33:49;Status;;in transit
+td516;2024-03-12 09:43:40;Status;;in transit
+td534;2024-03-12 09:52:04;;3
+td524;2024-03-12 10:43:41;Status;;in transit
+td483;2024-03-12 11:00:00;Status;;shipped
+td513;2024-03-12 11:00:00;Status;;shipped
+td493;2024-03-12 11:00:00;Status;;shipped
+td514;2024-03-12 11:00:00;Status;;shipped
+td486;2024-03-12 11:00:00;Status;;shipped
+td485;2024-03-12 11:00:00;Status;;shipped
+td501;2024-03-12 11:00:00;Status;;shipped
+td505;2024-03-12 11:00:00;Status;;shipped
+td497;2024-03-12 11:00:00;Status;;shipped
+td535;2024-03-12 11:34:06;;2
+td528;2024-03-12 14:13:21;Status;;in transit
+td526;2024-03-12 14:23:36;Status;;in transit
+td530;2024-03-12 14:44:32;Status;;in transit
+td536;2024-03-12 15:44:23;;3
+td523;2024-03-12 16:02:28;Status;;in transit
+td537;2024-03-12 16:31:13;;4
+td527;2024-03-12 17:09:24;Status;;in transit
+td515;2024-03-13 10:41:27;Status;;in transit
+td538;2024-03-13 14:06:23;;2
+td539;2024-03-13 16:11:18;;2
+td540;2024-03-13 17:34:35;;5
+td535;2024-03-14 09:41:53;Status;;in transit
+td541;2024-03-14 10:27:32;;3
+td542;2024-03-15 10:54:37;;2
+td506;2024-03-15 11:00:00;Status;;shipped
+td524;2024-03-15 11:00:00;Status;;shipped
+td526;2024-03-15 11:00:00;Status;;shipped
+td523;2024-03-15 11:00:00;Status;;shipped
+td502;2024-03-15 11:00:00;Status;;shipped
+td504;2024-03-15 11:00:00;Status;;shipped
+td527;2024-03-15 11:00:00;Status;;shipped
+td528;2024-03-15 11:00:00;Status;;shipped
+td510;2024-03-15 11:00:00;Status;;shipped
+td543;2024-03-15 12:20:40;;4
+td533;2024-03-15 15:45:14;Status;;in transit
+td520;2024-03-15 16:32:44;Status;;in transit
+td536;2024-03-15 18:04:48;Status;;in transit
+td544;2024-03-15 19:07:45;;4
+td519;2024-03-18 07:50:52;Status;;in transit
+td521;2024-03-18 10:58:51;Status;;in transit
+td517;2024-03-18 14:40:51;Status;;in transit
+td545;2024-03-18 15:41:22;;2
+td546;2024-03-18 15:43:10;;4
+td547;2024-03-19 09:10:16;;2
+td548;2024-03-19 09:33:12;;5
+td540;2024-03-19 09:57:00;Status;;in transit
+td534;2024-03-19 10:44:52;Status;;in transit
+td535;2024-03-19 11:00:00;Status;;shipped
+td533;2024-03-19 11:00:00;Status;;shipped
+td519;2024-03-19 11:00:00;Status;;shipped
+td522;2024-03-19 12:26:53;Status;;in transit
+td549;2024-03-19 15:01:13;;3
+td539;2024-03-19 15:26:42;Status;;in transit
+td532;2024-03-19 15:28:42;Status;;in transit
+td545;2024-03-19 17:35:05;Status;;in transit
+td550;2024-03-20 07:37:54;;1
+td551;2024-03-20 09:51:31;;4
+td550;2024-03-20 14:55:48;Status;;in transit
+td552;2024-03-20 16:47:58;;3
+td553;2024-03-20 17:23:59;;3
+td538;2024-03-21 09:33:40;Status;;in transit
+td554;2024-03-21 11:11:23;;2
+td547;2024-03-21 11:47:08;Status;;in transit
+td555;2024-03-21 18:29:55;;4
+td556;2024-03-22 10:51:07;;4
+td545;2024-03-22 11:00:00;Status;;shipped
+td532;2024-03-22 11:00:00;Status;;shipped
+td550;2024-03-22 11:00:00;Status;;shipped
+td530;2024-03-22 11:00:00;Status;;shipped
+td515;2024-03-22 11:00:00;Status;;shipped
+td503;2024-03-22 11:00:00;Status;;shipped
+td516;2024-03-22 11:00:00;Status;;shipped
+td518;2024-03-22 11:00:00;Status;;shipped
+td512;2024-03-22 11:00:00;Status;;shipped
+td540;2024-03-22 11:00:00;Status;;shipped
+td525;2024-03-22 14:10:55;Status;;in transit
+td557;2024-03-22 15:52:34;;3
+td544;2024-03-22 16:24:40;Status;;in transit
+td543;2024-03-22 17:09:57;Status;;in transit
+td558;2024-03-25 09:51:32;;2
+td542;2024-03-25 09:53:59;Status;;in transit
+td531;2024-03-25 14:40:46;Status;;in transit
+td541;2024-03-25 15:32:41;Status;;in transit
+td559;2024-03-25 15:47:51;;4
+td551;2024-03-25 16:13:59;Status;;in transit
+td553;2024-03-26 09:02:06;Status;;in transit
+td554;2024-03-26 09:43:18;Status;;in transit
+td529;2024-03-26 11:00:00;Status;;shipped
+td543;2024-03-26 11:00:00;Status;;shipped
+td521;2024-03-26 11:00:00;Status;;shipped
+td522;2024-03-26 11:00:00;Status;;shipped
+td560;2024-03-26 12:30:43;;2
+td537;2024-03-26 14:39:40;Status;;in transit
+td561;2024-03-26 16:12:40;;2
+td562;2024-03-26 16:28:34;;3
+td563;2024-03-27 16:56:43;;2
+td552;2024-03-28 10:44:22;Status;;in transit
+td564;2024-03-28 10:46:36;;2
+td565;2024-03-29 07:33:10;;4
+td542;2024-03-29 11:00:00;Status;;shipped
+td551;2024-03-29 11:00:00;Status;;shipped
+td536;2024-03-29 11:00:00;Status;;shipped
+td547;2024-03-29 11:00:00;Status;;shipped
+td538;2024-03-29 11:00:00;Status;;shipped
+td539;2024-03-29 11:00:00;Status;;shipped
+td534;2024-03-29 11:00:00;Status;;shipped
+td554;2024-03-29 11:00:00;Status;;shipped
+td549;2024-03-29 14:50:40;Status;;in transit
+td555;2024-03-29 15:28:19;Status;;in transit
+td566;2024-04-01 07:40:12;;5
+td567;2024-04-01 08:38:05;;3
+td548;2024-04-01 09:46:13;Status;;in transit
+td568;2024-04-01 10:32:53;;5
+td556;2024-04-01 14:21:19;Status;;in transit
+td564;2024-04-01 14:27:52;Status;;in transit
+td563;2024-04-01 14:28:46;Status;;in transit
+td559;2024-04-01 16:38:36;Status;;in transit
+td569;2024-04-01 17:16:19;;3
+td570;2024-04-01 18:16:55;;3
+td562;2024-04-02 09:28:57;Status;;in transit
+td571;2024-04-02 09:36:22;;5
+td560;2024-04-02 09:51:45;Status;;in transit
+td572;2024-04-02 10:06:24;;2
+td573;2024-04-02 10:30:49;;1
+td525;2024-04-02 11:00:00;Status;;shipped
+td563;2024-04-02 11:00:00;Status;;shipped
+td517;2024-04-02 11:00:00;Status;;shipped
+td548;2024-04-02 11:00:00;Status;;shipped
+td553;2024-04-02 11:00:00;Status;;shipped
+td537;2024-04-02 11:00:00;Status;;shipped
+td520;2024-04-02 11:00:00;Status;;shipped
+td544;2024-04-02 11:00:00;Status;;shipped
+td531;2024-04-02 11:00:00;Status;;shipped
+td565;2024-04-02 14:02:41;Status;;in transit
+td568;2024-04-02 16:50:34;Status;;in transit
+td558;2024-04-02 17:38:21;Status;;in transit
+td572;2024-04-03 16:34:34;Status;;in transit
+td574;2024-04-03 16:53:51;;4
+td575;2024-04-03 17:04:06;;4
+td576;2024-04-03 18:08:50;;2
+td577;2024-04-04 12:47:02;;3
+td571;2024-04-04 13:36:38;Status;;in transit
+td578;2024-04-04 16:07:39;;5
+td573;2024-04-04 18:22:39;Status;;in transit
+td541;2024-04-05 11:00:00;Status;;shipped
+td568;2024-04-05 11:00:00;Status;;shipped
+td560;2024-04-05 11:00:00;Status;;shipped
+td567;2024-04-05 11:26:54;Status;;in transit
+td561;2024-04-05 11:48:42;Status;;in transit
+td579;2024-04-05 15:22:06;;3
+td580;2024-04-05 16:23:06;;2
+td581;2024-04-05 17:56:57;;5
+td569;2024-04-08 13:23:54;Status;;in transit
+td566;2024-04-08 15:02:08;Status;;in transit
+td582;2024-04-08 15:55:01;;1
+td583;2024-04-08 16:22:20;;4
+td557;2024-04-09 08:32:59;Status;;in transit
+td584;2024-04-09 09:55:08;;2
+td552;2024-04-09 11:00:00;Status;;shipped
+td565;2024-04-09 11:00:00;Status;;shipped
+td571;2024-04-09 11:00:00;Status;;shipped
+td562;2024-04-09 11:00:00;Status;;shipped
+td555;2024-04-09 11:00:00;Status;;shipped
+td559;2024-04-09 11:00:00;Status;;shipped
+td580;2024-04-09 15:39:30;Status;;in transit
+td546;2024-04-09 16:40:15;Status;;in transit
+td585;2024-04-09 18:30:19;;3
+td586;2024-04-10 10:03:38;;1
+td587;2024-04-10 12:02:05;;2
+td588;2024-04-10 14:00:47;;5
+td589;2024-04-11 10:46:29;;5
+td579;2024-04-11 15:46:31;Status;;in transit
+td556;2024-04-12 11:00:00;Status;;shipped
+td561;2024-04-12 11:00:00;Status;;shipped
+td546;2024-04-12 11:00:00;Status;;shipped
+td569;2024-04-12 11:00:00;Status;;shipped
+td566;2024-04-12 11:00:00;Status;;shipped
+td558;2024-04-12 11:00:00;Status;;shipped
+td576;2024-04-12 13:25:44;Status;;in transit
+td590;2024-04-12 14:13:59;;3
+td591;2024-04-15 08:05:28;;4
+td592;2024-04-15 12:04:59;;3
+td593;2024-04-15 12:28:47;;1
+td594;2024-04-15 14:49:59;;4
+td582;2024-04-15 15:19:01;Status;;in transit
+td577;2024-04-15 19:18:36;Status;;in transit
+td584;2024-04-16 08:00:54;Status;;in transit
+td581;2024-04-16 08:19:06;Status;;in transit
+td582;2024-04-16 11:00:00;Status;;shipped
+td557;2024-04-16 11:00:00;Status;;shipped
+td572;2024-04-16 11:00:00;Status;;shipped
+td576;2024-04-16 11:00:00;Status;;shipped
+td567;2024-04-16 11:00:00;Status;;shipped
+td549;2024-04-16 11:00:00;Status;;shipped
+td564;2024-04-16 11:00:00;Status;;shipped
+td595;2024-04-16 11:09:13;;5
+td596;2024-04-16 11:52:58;;3
+td587;2024-04-16 13:31:22;Status;;in transit
+td570;2024-04-16 14:17:10;Status;;in transit
+td597;2024-04-16 16:48:19;;5
+td598;2024-04-16 16:52:29;;1
+td599;2024-04-16 17:15:12;;3
+td585;2024-04-17 09:27:49;Status;;in transit
+td578;2024-04-17 09:55:45;Status;;in transit
+td588;2024-04-17 11:02:47;Status;;in transit
+td589;2024-04-17 16:51:21;Status;;in transit
+td575;2024-04-18 10:31:49;Status;;in transit
+td591;2024-04-18 10:34:53;Status;;in transit
+td600;2024-04-18 10:48:47;;2
+td574;2024-04-18 11:08:18;Status;;in transit
+td583;2024-04-18 11:25:40;Status;;in transit
+td592;2024-04-18 12:36:21;Status;;in transit
+td593;2024-04-18 13:40:54;Status;;in transit
+td581;2024-04-19 11:00:00;Status;;shipped
+td580;2024-04-19 11:00:00;Status;;shipped
+td588;2024-04-19 11:00:00;Status;;shipped
+td589;2024-04-19 11:00:00;Status;;shipped
+td585;2024-04-19 11:00:00;Status;;shipped
+td596;2024-04-19 11:57:05;Status;;in transit
+td598;2024-04-22 12:00:17;Status;;in transit
+td599;2024-04-23 08:52:18;Status;;in transit
+td583;2024-04-23 11:00:00;Status;;shipped
+td573;2024-04-23 11:00:00;Status;;shipped
+td575;2024-04-23 11:00:00;Status;;shipped
+td591;2024-04-23 11:00:00;Status;;shipped
+td579;2024-04-23 11:00:00;Status;;shipped
+td577;2024-04-23 11:00:00;Status;;shipped
+td600;2024-04-23 11:15:21;Status;;in transit
+td590;2024-04-23 11:19:08;Status;;in transit
+td594;2024-04-23 11:29:05;Status;;in transit
+td586;2024-04-24 10:45:11;Status;;in transit
+td594;2024-04-26 11:00:00;Status;;shipped
+td592;2024-04-26 11:00:00;Status;;shipped
+td599;2024-04-26 11:00:00;Status;;shipped
+td587;2024-04-26 11:00:00;Status;;shipped
+td570;2024-04-26 11:00:00;Status;;shipped
+td596;2024-04-26 11:00:00;Status;;shipped
+td584;2024-04-30 11:00:00;Status;;shipped
+td586;2024-04-30 11:00:00;Status;;shipped
+td574;2024-04-30 11:00:00;Status;;shipped
+td578;2024-04-30 11:00:00;Status;;shipped
+td590;2024-04-30 11:00:00;Status;;shipped
+td598;2024-04-30 11:00:00;Status;;shipped
+td595;2024-05-01 16:30:50;Status;;in transit
+td595;2024-05-07 11:00:00;Status;;shipped
+td600;2024-05-07 11:00:00;Status;;shipped
+td597;2024-05-07 11:16:12;Status;;in transit
+td593;2024-05-10 11:00:00;Status;;shipped
+td597;2024-05-14 11:00:00;Status;;shipped

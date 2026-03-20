@@ -1,0 +1,26 @@
+"""
+MPC (Multi-Party Computation) backends for federated SFD.
+
+Provides two implementations of the MPCBackend interface:
+  - LocalMockBackend: Plaintext computation (no MPC, for development/testing)
+  - MPSPDZBackend: Real secure computation via MP-SPDZ
+
+Use the factory function to create the appropriate backend:
+
+    from fedsfd.mpc.factory import create_mpc_backend
+
+    backend = create_mpc_backend("mock", n_parties=3)
+    # or
+    backend = create_mpc_backend("mp_spdz", mp_spdz_path="/path/to/MP-SPDZ")
+"""
+
+from fedsfd.mpc.interface import MPCBackend
+from fedsfd.mpc.local_mock import LocalMockBackend
+from fedsfd.mpc.factory import create_mpc_backend, create_backend_from_experiment_config
+
+__all__ = [
+    "MPCBackend",
+    "LocalMockBackend",
+    "create_mpc_backend",
+    "create_backend_from_experiment_config",
+]

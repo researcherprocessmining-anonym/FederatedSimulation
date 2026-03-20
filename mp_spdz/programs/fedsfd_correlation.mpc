@@ -1,0 +1,79 @@
+"""
+fedsfd_correlation.mpc — Secure lagged Pearson correlation
+==========================================================
+
+Protocol: semi2k (semi-honest, arithmetic mod 2^k)
+
+Each party inputs its time series as secret values. The program computes
+the covariance, variance_a, and variance_b at each lag, then reveals
+only these summary statistics (not the raw time series).
+
+Compile with:  ./compile.py -R 64 fedsfd_correlation <n> <max_lag>
+  where n = time series length, max_lag = maximum lag to test.
+
+Input format (whitespace-separated in Player-Data/Input-P{i}-0):
+  Party 0: ts_a[0] ts_a[1] ... ts_a[n-1]
+  Party 1: ts_b[0] ts_b[1] ... ts_b[n-1]
+
+Output (parsed by Python wrapper from stdout):
+  LAG <lag> COV <cov> VARA <var_a> VARB <var_b> N <eff_n>
+  ...
+  DONE
+
+Python wrapper computes corr = cov / sqrt(var_a * var_b) for each lag.
+
+Reference: Pourbafrani & van der Aalst (2022), federated flow matching.
+"""
+
+# Fixed-point: 16 bits fractional, 31 bits total
+# Range ~[-16384, 16384), precision ~0.000015
+sfix.set_precision(16, 31)
+print_float_precision(8)
+
+# Read dimensions from compile-time arguments
+n = int(program.args[1])
+max_lag = int(program.args[2])
+
+# Read time series from each party
+ts_a = sfix.Array(n)
+ts_b = sfix.Array(n)
+
+for i in range(n):
+    ts_a[i] = sfix.get_input_from(0)
+
+for i in range(n):
+    ts_b[i] = sfix.get_input_from(1)
+
+# Compute correlation statistics at each lag
+for lag in range(max_lag + 1):
+    eff_n = n - lag
+    if eff_n < 3:
+        print_ln('LAG %s COV 0 VARA 0 VARB 0 N %s', lag, eff_n)
+        continue
+
+    # Compute means
+    sum_a = sfix(0)
+    sum_b = sfix(0)
+    for i in range(eff_n):
+        sum_a = sum_a + ts_a[i]
+        sum_b = sum_b + ts_b[i + lag]
+
+    mean_a = sum_a / eff_n
+    mean_b = sum_b / eff_n
+
+    # Compute covariance and variances
+    cov = sfix(0)
+    var_a = sfix(0)
+    var_b = sfix(0)
+    for i in range(eff_n):
+        da = ts_a[i] - mean_a
+        db = ts_b[i + lag] - mean_b
+        cov = cov + da * db
+        var_a = var_a + da * da
+        var_b = var_b + db * db
+
+    # Reveal only the aggregate statistics (not raw data)
+    print_ln('LAG %s COV %s VARA %s VARB %s N %s',
+             lag, cov.reveal(), var_a.reveal(), var_b.reveal(), eff_n)
+
+print_ln('DONE')

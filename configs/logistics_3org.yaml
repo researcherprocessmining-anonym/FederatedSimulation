@@ -1,0 +1,350 @@
+# Federated SFD — 3-Organization Logistics Configuration
+# Dataset: OCEL 2.0 Logistics (Zenodo DOI: 10.5281/zenodo.8289899)
+#
+# Defines the organizational partition and analyst-specified SFD variables.
+# Analysts supply material flow topology (from_stock / to_stock); the pipeline
+# discovers information dependencies and fits equation coefficients from data.
+
+data:
+  path: "data/ocel2-logistics.sqlite"
+
+time_window:
+  delta: "1d"   # Δt = 1 day
+
+random_seed: 42
+
+# ---------------------------------------------------------------------------
+# Organizational partition: activity → org
+# ---------------------------------------------------------------------------
+organizations:
+  Company:
+    activities:
+      - "Register Customer Order"
+      - "Create Transport Document"
+  Trucking:
+    activities:
+      - "Book Vehicles"
+      - "Order Empty Containers"
+      - "Pick Up Empty Container"
+      - "Load Truck"
+      - "Drive to Terminal"
+      - "Collect Goods"
+  Terminal:
+    activities:
+      - "Weigh"
+      - "Place in Stock"
+      - "Bring to Loading Bay"
+      - "Load to Vehicle"
+      - "Depart"
+      - "Reschedule Container"
+
+# ---------------------------------------------------------------------------
+# Process scopes (legacy)
+# ---------------------------------------------------------------------------
+scopes:
+  Company:
+    Order Registration:
+      - "Register Customer Order"
+      - "Create Transport Document"
+  Trucking:
+    Logistics Planning:
+      - "Book Vehicles"
+      - "Order Empty Containers"
+    Container Pickup:
+      - "Pick Up Empty Container"
+    Transport:
+      - "Load Truck"
+      - "Collect Goods"
+      - "Drive to Terminal"
+  Terminal:
+    Receiving:
+      - "Weigh"
+    Storage:
+      - "Place in Stock"
+    Loading:
+      - "Bring to Loading Bay"
+      - "Load to Vehicle"
+      - "Depart"
+    Rescheduling:
+      - "Reschedule Container"
+
+# ---------------------------------------------------------------------------
+# Analyst-defined SFD variables per organization
+# ---------------------------------------------------------------------------
+
+sfd_variables:
+  Company:
+    # --- Auxiliaries ---
+    # Mean time from order registration to transport document creation.
+    # avg_order_processing_time:
+    #   role: auxiliary
+    #   unit: "hours"
+    #   compute:
+    #     type: mean_duration
+    #     object_type: "Customer Order"
+    #     entry_activities: ["Register Customer Order"]
+    #     exit_activities: ["Create Transport Document"]
+    #     unit: "hours"
+
+    # --- Stocks ---
+    order_backlog:
+      role: stock
+      unit: "Customer Orders"
+      compute:
+        type: backlog
+        object_type: "Customer Order"
+        entry_activities: ["Register Customer Order"]
+        exit_activities: ["Create Transport Document"]
+
+    doc_ready_queue:
+      role: stock
+      unit: "Transport Documents"
+      compute:
+        type: backlog
+        object_type: "Transport Document"
+        entry_activities: ["Create Transport Document"]
+        exit_activities: ["Book Vehicles"]
+
+    # --- Flows ---
+    order_intake_rate:
+      role: flow
+      unit: "Customer Orders / Δt"
+      from_stock: cloud
+      to_stock: order_backlog
+      compute:
+        type: rate
+        activities: ["Register Customer Order"]
+        object_type: "Customer Order"
+
+    doc_processing_rate:
+      role: flow
+      unit: "Transport Documents / Δt"
+      from_stock: order_backlog
+      to_stock: doc_ready_queue
+      compute:
+        type: rate
+        activities: ["Create Transport Document"]
+        object_type: "Transport Document"
+
+    booking_request_rate:
+      role: flow
+      unit: "Transport Documents / Δt"
+      from_stock: doc_ready_queue
+      to_stock: cloud
+      compute:
+        type: rate
+        activities: ["Book Vehicles"]
+        object_type: "Transport Document"
+
+  # =========================================================================
+  # TRUCKING — Single Container lifecycle chain
+  # =========================================================================
+  
+    # --- Stocks ---
+    container_order_backlog:
+      role: stock
+      unit: "Containers"
+      compute:
+        type: backlog
+        object_type: "Container"
+        entry_activities: ["Order Empty Containers"]
+        exit_activities: ["Pick Up Empty Container"]
+
+    containers_at_depot:
+      role: stock
+      unit: "Containers"
+      compute:
+        type: backlog
+        object_type: "Container"
+        entry_activities: ["Pick Up Empty Container"]
+        exit_activities: ["Drive to Terminal"]
+
+    # --- Flows ---
+    container_order_rate:
+      role: flow
+      unit: "Containers / Δt"
+      from_stock: cloud
+      to_stock: container_order_backlog
+      compute:
+        type: rate
+        activities: ["Order Empty Containers"]
+        object_type: "Container"
+
+    container_pickup_rate:
+      role: flow
+      unit: "Containers / Δt"
+      from_stock: container_order_backlog
+      to_stock: containers_at_depot
+      compute:
+        type: rate
+        activities: ["Pick Up Empty Container"]
+        object_type: "Container"
+
+    depot_departure_rate:
+      role: flow
+      unit: "Containers / Δt"
+      from_stock: containers_at_depot
+      to_stock: cloud
+      compute:
+        type: rate
+        activities: ["Drive to Terminal"]
+        object_type: "Container"
+
+  # =========================================================================
+  # TERMINAL 
+  # =========================================================================
+  
+  Terminal:
+    # --- Auxiliaries ---
+    # Mean time from weighing to placement in stock.  Measures the speed
+    # of the weighing/receiving phase.  Slow weighing causally constrains
+    # weighing_rate and causes the weighing_queue to build up.
+    # avg_weighing_service_time:
+    #   role: auxiliary
+    #   unit: "hours"
+    #   compute:
+    #     type: mean_duration
+    #     object_type: "Container"
+    #     entry_activities: ["Weigh"]
+    #     exit_activities: ["Place in Stock"]
+    #     unit: "hours"
+
+    # Mean time from placement in stock to transfer to loading bay.
+    # Captures storage scheduling delays and bay availability.  High
+    # dwell time causally constrains bay_transfer_rate.
+    avg_storage_dwell_time:
+      role: auxiliary
+      unit: "hours"
+      compute:
+        type: mean_duration
+        object_type: "Container"
+        entry_activities: ["Place in Stock"]
+        exit_activities: ["Bring to Loading Bay"]
+        unit: "hours"
+
+    # Mean events per active vehicle (train/ship) per day.
+    # vehicle_workload:
+    #   role: auxiliary
+    #   unit: "events / Vehicle"
+    #   compute:
+    #     type: workload_per_object
+    #     object_type: "Vehicle"
+    #     activities: ["Load to Vehicle", "Depart"]
+
+    # --- Stocks ---
+    weighing_queue:
+      role: stock
+      unit: "Containers"
+      compute:
+        type: backlog
+        object_type: "Container"
+        entry_activities: ["Weigh"]
+        exit_activities: ["Place in Stock"]
+
+    terminal_inventory:
+      role: stock
+      unit: "Containers"
+      compute:
+        type: backlog
+        object_type: "Container"
+        entry_activities: ["Place in Stock"]
+        exit_activities: ["Bring to Loading Bay"]
+
+    loading_bay_queue:
+      role: stock
+      unit: "Containers"
+      compute:
+        type: backlog
+        object_type: "Container"
+        entry_activities: ["Bring to Loading Bay"]
+        exit_activities: ["Load to Vehicle"]
+
+    # --- Flows ---
+    arrival_rate:
+      role: flow
+      unit: "Containers / Δt"
+      from_stock: cloud
+      to_stock: weighing_queue
+      compute:
+        type: rate
+        activities: ["Weigh"]
+        object_type: "Container"
+
+    weighing_rate:
+      role: flow
+      unit: "Containers / Δt"
+      from_stock: weighing_queue
+      to_stock: terminal_inventory
+      compute:
+        type: rate
+        activities: ["Place in Stock"]
+        object_type: "Container"
+
+    bay_transfer_rate:
+      role: flow
+      unit: "Containers / Δt"
+      from_stock: terminal_inventory
+      to_stock: loading_bay_queue
+      compute:
+        type: rate
+        activities: ["Bring to Loading Bay"]
+        object_type: "Container"
+
+    departure_rate:
+      role: flow
+      unit: "Containers / Δt"
+      from_stock: loading_bay_queue
+      to_stock: cloud
+      compute:
+        type: rate
+        activities: ["Load to Vehicle"]
+        object_type: "Container"
+
+# ---------------------------------------------------------------------------
+# Inter-organizational flow matches
+# ---------------------------------------------------------------------------
+federation:
+  # flow_matches:                 # commented out → use correlation auto-discovery
+  #   - outflow: {org: "Company", flow: "booking_request_rate"}
+  #     inflow: {org: "Trucking", flow: "container_order_rate"}
+  #     lag: 1
+  #   - outflow: {org: "Trucking", flow: "depot_departure_rate"}
+  #     inflow: {org: "Terminal", flow: "arrival_rate"}
+  #     lag: 0
+
+  correlation_threshold: 0.5
+  max_lag: 3
+  model_type: "linear"
+
+  # Per-org directional constraints for auto-discovery.
+  # Each org declares which orgs it can send outflows to and/or receive
+  # inflows from.  Omitting an org or a key leaves it unconstrained.
+  allowed_links:
+    Company:
+      outflow_to: [Trucking]
+    Trucking:
+      outflow_to: [Terminal]
+    Terminal:
+      outflow_to: [Company]
+
+simulation:
+  horizon: 5
+  baseline_data_path: "data/whatIF/custom_logistics_sim.sqlite"
+  whatif_data_path: "data/whatIF/custom_logistics_sim_wi.sqlite"
+  warmup_days: 0
+  what_if:
+    - org: "Company"
+      variable: "order_intake_rate"
+      multiplier: 1.43
+
+mpc:
+  backend: "mock"
+  mp_spdz_path: "../MP-SPDZ"
+  protocol: "semi2k"
+
+evaluation:
+  train_fraction: 0.7
+
+discovery:
+  correlation_threshold: 0.3
+  max_lag: 3

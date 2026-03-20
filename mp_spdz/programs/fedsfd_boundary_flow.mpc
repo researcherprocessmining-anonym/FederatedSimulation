@@ -1,0 +1,53 @@
+"""
+fedsfd_boundary_flow.mpc — Secure boundary flow computation
+============================================================
+
+Protocol: semi2k (semi-honest, arithmetic mod 2^k)
+
+Reads equation parameters (intercept, slope) from party 0's input,
+and the stock value from the source party's input. Computes:
+    flow = max(intercept + slope * stock_value, 0)
+
+This avoids passing floating-point equation parameters as compile-time
+arguments, which would break when values are negative (compile.py
+interprets "-1.5" as a command-line flag).
+
+Compile with:  ./compile.py fedsfd_boundary_flow <source_party>
+
+Input format (whitespace-separated in Player-Data/Input-P{i}-0):
+  Party 0: intercept slope dummy_stock_value
+  Source party (if != 0): dummy_intercept dummy_slope stock_value
+  Other parties: 0.0 0.0 0.0
+
+Output (parsed by Python wrapper from stdout):
+  RESULT FLOW <flow_rate>
+
+Reference: Pourbafrani & van der Aalst (2022), federated simulation loop.
+"""
+
+sfix.set_precision(16, 31)
+print_float_precision(8)
+
+source_party = int(program.args[1])
+
+# Read intercept and slope from party 0
+intercept = sfix.get_input_from(0)
+slope = sfix.get_input_from(0)
+# Skip party 0's dummy stock slot
+_ = sfix.get_input_from(0)
+
+# Read dummy slots from source party (if different from party 0)
+if source_party != 0:
+    _ = sfix.get_input_from(source_party)  # dummy intercept
+    _ = sfix.get_input_from(source_party)  # dummy slope
+
+# Read actual stock value from source party
+stock_val = sfix.get_input_from(source_party)
+
+flow_rate = intercept + slope * stock_val
+
+is_positive = flow_rate > sfix(0)
+flow_rate = is_positive.if_else(flow_rate, sfix(0))
+
+print_ln('RESULT FLOW %s', flow_rate.reveal())
+print_ln('DONE')

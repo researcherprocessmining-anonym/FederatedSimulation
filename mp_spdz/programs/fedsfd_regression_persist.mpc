@@ -1,0 +1,87 @@
+"""
+fedsfd_regression_persist.mpc — Secure linear regression with persistence
+==========================================================================
+
+Protocol: semi2k (semi-honest, arithmetic mod 2^k)
+
+Same regression as fedsfd_regression.mpc, but instead of revealing the
+learned parameters (alpha, beta), writes them as secret shares to
+MP-SPDZ persistence files. This keeps the boundary equation parameters
+in the secret-shared domain — they never exist in plaintext.
+
+The companion program fedsfd_boundary_flow_persist.mpc reads these
+shares back at simulation time.
+
+Persistence channel scheme:
+  Channel <eq_id>: [alpha, beta]  (written sequentially)
+
+Each boundary equation is assigned a unique eq_id (0, 1, 2, ...).
+The same eq_id must be used when reading back in the boundary flow program.
+
+Compile with:  ./compile.py fedsfd_regression_persist <n> <eq_id>
+  where n = number of data points, eq_id = boundary equation index.
+
+Input format (whitespace-separated in Player-Data/Input-P{i}-0):
+  Party 0: x[0] x[1] ... x[n-1]
+  Party 1: y[0] y[1] ... y[n-1]
+
+Output (parsed by Python wrapper from stdout):
+  PERSIST EQID <eq_id> OK
+  RESULT INTERCEPT <alpha> SLOPE <beta>
+  DONE
+
+The RESULT line reveals alpha and beta for diagnostic purposes only
+(e.g., R-squared computation). In a production deployment, the reveal
+can be removed — the persisted shares are sufficient for simulation.
+
+Reference: Pourbafrani & van der Aalst (2022), boundary equation fitting.
+"""
+
+sfix.set_precision(16, 31)
+print_float_precision(8)
+
+n = int(program.args[1])
+eq_id = int(program.args[2])
+
+x = sfix.Array(n)
+y = sfix.Array(n)
+
+for i in range(n):
+    x[i] = sfix.get_input_from(0)
+
+for i in range(n):
+    y[i] = sfix.get_input_from(1)
+
+# Step 1: compute means
+sum_x = sfix(0)
+sum_y = sfix(0)
+for i in range(n):
+    sum_x = sum_x + x[i]
+    sum_y = sum_y + y[i]
+
+mean_x = sum_x / n
+mean_y = sum_y / n
+
+# Step 2: compute slope via mean-centered sums
+cov_xy = sfix(0)
+var_x = sfix(0)
+for i in range(n):
+    dx = x[i] - mean_x
+    dy = y[i] - mean_y
+    cov_xy = cov_xy + dx * dy
+    var_x = var_x + dx * dx
+
+beta = cov_xy / var_x
+alpha = mean_y - beta * mean_x
+
+# Step 3: persist (alpha, beta) as secret shares
+# Each party writes its share to Player-Data/Persistence/Transactions-P{i}-{eq_id}
+alpha.write_to_file(eq_id)
+beta.write_to_file(eq_id)
+
+print_ln('PERSIST EQID %s OK', eq_id)
+
+# Step 4: reveal for diagnostics (R-squared computation on Python side)
+# In production, these lines can be removed — the persisted shares suffice.
+print_ln('RESULT INTERCEPT %s SLOPE %s', alpha.reveal(), beta.reveal())
+print_ln('DONE')

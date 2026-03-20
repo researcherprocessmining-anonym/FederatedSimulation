@@ -1,0 +1,64 @@
+"""
+fedsfd_regression.mpc — Secure linear regression (mean-centered)
+================================================================
+
+Protocol: semi2k (semi-honest, arithmetic mod 2^k)
+
+Uses the mean-centered formulation to avoid fixed-point overflow:
+  beta  = sum((x_i - mean_x) * (y_i - mean_y)) / sum((x_i - mean_x)^2)
+  alpha = mean_y - beta * mean_x
+
+This keeps intermediate sums proportional to variance (not raw values^2 * n),
+avoiding overflow in sfix(16,31) which can only represent ~[-16384, 16384).
+
+Compile with:  ./compile.py fedsfd_regression <n>
+  where n = number of data points.
+
+Input format (whitespace-separated in Player-Data/Input-P{i}-0):
+  Party 0: x[0] x[1] ... x[n-1]
+  Party 1: y[0] y[1] ... y[n-1]
+
+Output (parsed by Python wrapper from stdout):
+  RESULT INTERCEPT <alpha> SLOPE <beta>
+
+Reference: Pourbafrani & van der Aalst (2022), boundary equation fitting.
+"""
+
+sfix.set_precision(16, 31)
+print_float_precision(8)
+
+n = int(program.args[1])
+
+x = sfix.Array(n)
+y = sfix.Array(n)
+
+for i in range(n):
+    x[i] = sfix.get_input_from(0)
+
+for i in range(n):
+    y[i] = sfix.get_input_from(1)
+
+# Step 1: compute means
+sum_x = sfix(0)
+sum_y = sfix(0)
+for i in range(n):
+    sum_x = sum_x + x[i]
+    sum_y = sum_y + y[i]
+
+mean_x = sum_x / n
+mean_y = sum_y / n
+
+# Step 2: compute slope via mean-centered sums
+cov_xy = sfix(0)
+var_x = sfix(0)
+for i in range(n):
+    dx = x[i] - mean_x
+    dy = y[i] - mean_y
+    cov_xy = cov_xy + dx * dy
+    var_x = var_x + dx * dx
+
+beta = cov_xy / var_x
+alpha = mean_y - beta * mean_x
+
+print_ln('RESULT INTERCEPT %s SLOPE %s', alpha.reveal(), beta.reveal())
+print_ln('DONE')

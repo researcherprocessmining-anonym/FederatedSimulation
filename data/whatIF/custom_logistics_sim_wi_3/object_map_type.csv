@@ -1,0 +1,8 @@
+ocel_type;ocel_type_map
+Customer Order;CustomerOrder
+Transport Document;TransportDocument
+Container;Container
+Truck;Truck
+Handling Unit;HandlingUnit
+Forklift;Forklift
+Vehicle;Vehicle

@@ -1,0 +1,15 @@
+ocel_type;ocel_type_map
+Register Customer Order;RegisterCustomerOrder
+Create Transport Document;CreateTransportDocument
+Book Vehicles;BookVehicles
+Order Empty Containers;OrderEmptyContainers
+Pick Up Empty Container;PickUpEmptyContainer
+Collect Goods;CollectGoods
+Load Truck;LoadTruck
+Drive to Terminal;DriveToTerminal
+Weigh;Weigh
+Place in Stock;PlaceInStock
+Bring to Loading Bay;BringToLoadingBay
+Load to Vehicle;LoadToVehicle
+Reschedule Container;RescheduleContainer
+Depart;Depart
